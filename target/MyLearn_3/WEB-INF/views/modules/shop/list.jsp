@@ -32,29 +32,34 @@
                        </tr>
                     </thead>
                     <tbody>
-                    <tr>
                         <c:forEach var="sk" items="${list}">
-                            <td>${sk.name}</td>
-                            <td>${sk.number}</td>
-                            <td>
-                                <fmt:formatDate value="${sk.startTime}" pattern="yyyy-MM-dd HH:mm:ss"/>
-                            </td>
-                            <td>
-                                <fmt:formatDate value="${sk.endTime}" pattern="yyyy-MM-dd HH:mm:ss"/>
-                            </td>
-                            <td>
-                                <fmt:formatDate value="${sk.createTime}" pattern="yyyy-MM-dd HH:mm:ss"/>
-                            </td>
-                            <td>
-                                <a class="btn btn-info" href="/shop/seckill/${sk.id}/detail" target="_blank">详情</a>
-                            </td>
+                            <tr>
+                                <td>${sk.name}</td>
+                                <td>${sk.number}</td>
+                                <td>
+                                    <fmt:formatDate value="${sk.startTime}" pattern="yyyy-MM-dd HH:mm:ss"/>
+                                </td>
+                                <td>
+                                    <fmt:formatDate value="${sk.endTime}" pattern="yyyy-MM-dd HH:mm:ss"/>
+                                </td>
+                                <td>
+                                    <fmt:formatDate value="${sk.createTime}" pattern="yyyy-MM-dd HH:mm:ss"/>
+                                </td>
+                                <td>
+                                    <a class="btn btn-info" href="/shop/seckill/${sk.id}/detail" target="_blank">详情</a>
+                                </td>
+                            </tr>
                         </c:forEach>
-
-                    </tr>
                     </tbody>
                 </table>
             </div>
         </div>
     </div>
 </body>
+
+<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+<script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+
+<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+<script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </html>
