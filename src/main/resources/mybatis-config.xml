@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
-
 	<!-- 全局参数 -->
 	<settings>
 
@@ -15,16 +14,5 @@
 		<setting name="mapUnderscoreToCamelCase" value="true"/>
 		
 	</settings>
-	
-	<!-- 类型别名 -->
-	<typeAliases>
-		<typeAlias alias="Page" type="com.moekee.base.common.persistence.Page" /><!--分页  -->
-	</typeAliases>
-	
-	<!-- 插件配置 -->
-	<plugins>
-		<plugin interceptor="com.moekee.base.common.persistence.interceptor.PaginationInterceptor" />
-		
-    </plugins>
-	
+
 </configuration>

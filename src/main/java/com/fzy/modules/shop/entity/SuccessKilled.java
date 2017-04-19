@@ -13,6 +13,13 @@ public class SuccessKilled {
     private Date createTime; //创建时间
     private Seckill seckill; //商品
 
+    public SuccessKilled(){}
+
+    public SuccessKilled(String seckillId, String userPhone) {
+        this.seckillId = seckillId;
+        this.userPhone = userPhone;
+    }
+
     public String getSeckillId() {
         return seckillId;
     }

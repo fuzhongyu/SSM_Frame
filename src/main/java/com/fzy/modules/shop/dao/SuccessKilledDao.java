@@ -30,7 +30,7 @@ public interface SuccessKilledDao{
      * @param seckillId
      * @return
      */
-    SuccessKilled queryByIdWithSeckill(String seckillId);
+    SuccessKilled queryByIdWithSeckill(String seckillId,String userPhone);
 
 
 

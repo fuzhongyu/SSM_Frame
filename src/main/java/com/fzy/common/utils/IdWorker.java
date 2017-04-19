@@ -58,6 +58,8 @@ public class IdWorker {
         return (new IdWorker(0,0).nextId()).toString();
     }
 
+    public IdWorker(){}
+
     public IdWorker(long workerId, long datacenterId){
         if(workerId < 0 || workerId > maxWorkerId){
             throw new IllegalArgumentException(

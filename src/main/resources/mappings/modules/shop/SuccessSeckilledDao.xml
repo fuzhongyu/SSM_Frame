@@ -2,7 +2,7 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.fzy.modules.shop.dao.SuccessKilledDao">
 
-    <sql id="successKilledComluns">
+    <sql id="successKilledColumns">
         a.id,
         a.user_phone,
         a.seckill_id,
@@ -10,7 +10,7 @@
         a.create_time
     </sql>
 
-    <sql id="seckillComluns">
+    <sql id="seckillColumns">
         b.name AS "seckill.name",
         b.number AS "seckill.number",
         b.start_time AS "seckill.statTime",
@@ -47,11 +47,11 @@
 
     <select id="queryByIdWithSeckill" resultType="SuccessKilled">
         SELECT
-           <include refid="successKilledComluns"/>,
-           <include refid="seckillComluns"/>
+           <include refid="successKilledColumns"/>,
+           <include refid="seckillColumns"/>
         FROM shop_success_killed a
           inner JOIN  shop_seckill b ON a.seckill_id=b.id
-        WHERE a.seckill_id=#{seckillId}
+        WHERE a.seckill_id=#{seckillId} AND a.user_phone=#{userPhone}
     </select>
 
 </mapper>

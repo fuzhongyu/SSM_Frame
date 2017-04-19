@@ -1,7 +1,6 @@
 package com.fzy.modules.shop.dao;
 
 import com.fzy.modules.shop.entity.Seckill;
-
 import java.util.Date;
 import java.util.List;
 
