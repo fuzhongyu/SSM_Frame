@@ -27,12 +27,12 @@ public class SeckillController {
     private SeckillService seckillService;
 
 
-    @RequestMapping(value = "/list")
+    @RequestMapping(value = "list")
     public String list(Model model){
 
         List<Seckill>  list=seckillService.getSeckillList();
         model.addAttribute("list",list);
-        return "shop/list";
+        return "/modules/shop/list";
     }
 
     @RequestMapping(value = "{seckillId}/detail")
@@ -45,7 +45,7 @@ public class SeckillController {
             return "redirect:/shop/seckill/list";
         }
         model.addAttribute("seckill",seckill);
-        return "shop/detail";
+        return "/modules/shop/detail";
     }
 
     @ResponseBody

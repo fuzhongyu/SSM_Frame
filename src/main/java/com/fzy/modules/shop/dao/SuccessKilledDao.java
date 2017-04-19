@@ -1,6 +1,8 @@
 package com.fzy.modules.shop.dao;
 
+import com.fzy.common.annotation.MyBatisDao;
 import com.fzy.modules.shop.entity.SuccessKilled;
+import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 
@@ -8,6 +10,7 @@ import java.util.List;
  * 秒杀成功实体类
  * Created by fuzhongyu on 2017/4/17.
  */
+@MyBatisDao
 public interface SuccessKilledDao{
 
     /**
@@ -30,7 +33,7 @@ public interface SuccessKilledDao{
      * @param seckillId
      * @return
      */
-    SuccessKilled queryByIdWithSeckill(String seckillId,String userPhone);
+    SuccessKilled queryByIdWithSeckill(@Param("seckillId") String seckillId, @Param("userPhone") String userPhone);
 
 
 

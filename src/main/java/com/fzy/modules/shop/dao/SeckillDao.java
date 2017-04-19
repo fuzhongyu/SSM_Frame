@@ -1,6 +1,9 @@
 package com.fzy.modules.shop.dao;
 
+import com.fzy.common.annotation.MyBatisDao;
 import com.fzy.modules.shop.entity.Seckill;
+import org.apache.ibatis.annotations.Param;
+
 import java.util.Date;
 import java.util.List;
 
@@ -8,6 +11,7 @@ import java.util.List;
  * 秒杀商品实体类
  * Created by fuzhongyu on 2017/4/17.
  */
+@MyBatisDao
 public interface SeckillDao {
 
     /**
@@ -31,7 +35,7 @@ public interface SeckillDao {
      * @param limit
      * @return
      */
-    List<Seckill> queryAll(int offset,int limit);
+    List<Seckill> queryAll(@Param("offset") int offset, @Param("limit") int limit);
 
 
 

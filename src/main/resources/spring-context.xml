@@ -14,10 +14,10 @@
 <description>Spring Configuration</description>
 
     <!-- 加载配置属性文件 -->
-	<context:property-placeholder location="classpath:config.properties" />
+	<context:property-placeholder ignore-unresolvable="true" location="classpath:config.properties" />
 
 	 <!--使用Annotation自动注册Bean，解决事物失效问题：在主容器中不扫描@Controller注解，在SpringMvc中只扫描@Controller注解。-->
-	<context:component-scan base-package="com.fzy"><!-- base-package 如果多个，用“,”分隔 -->
+	<context:component-scan base-package="com.fzy.modules"><!-- base-package 如果多个，用“,”分隔 -->
 		<context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
 	</context:component-scan>
 
@@ -46,7 +46,7 @@
 		<!--配置mybatis全局配置文件-->
 		<property name="configLocation" value="classpath:mybatis-config.xml"/>
  		<!--扫描包entity包，使用别名,如：com.fzy.modules.shop.entity.Seckill 可以直接在mapping的resultType中放Seckill-->
-		<property name="typeAliasesPackage" value="com.fzy"/>
+		<property name="typeAliasesPackage" value="com.fzy.modules"/>
 		<!--扫描sql配置文件：mapper需要的xml文件-->
 		<property name="mapperLocations" value="classpath:mappings/modules/**/*.xml"/>
 	</bean>
@@ -54,11 +54,11 @@
 	<!--扫描dao接口，动态实现dao接口注入到spring容器-->
 	<bean id="mapperScannerConfigurer" class="org.mybatis.spring.mapper.MapperScannerConfigurer">
 		<!--给出需要扫描的dao接口包-->
-		<property name="basePackage" value="classpath:com/fzy/modules/**/dao"/>
+		<property name="basePackage" value="com.fzy.modules"/>
 		<!--注入sqlSessionFactory-->
 		<property name="sqlSessionFactoryBeanName" value="sqlSessionFactory" />
 		<!-- 扫描basePackage下所有以@MyBatisDao注解的接口 -->
-		<!--<property name="annotationClass" value="com.fzy.common.annotation.MyBatisDao"/>-->
+		<property name="annotationClass" value="com.fzy.common.annotation.MyBatisDao"/>
 	</bean>
 
 	<!-- 定义事务 -->
