@@ -31,6 +31,15 @@ public class ResponseEntity {
             this.result = result;
     }
 
+    public ResponseEntity(String errCode,String errMsg,Object result){
+        this.code = errCode;
+        this.msg = errMsg;
+        if(result == null)
+            this.result = new HashMap<String,String>();
+        else
+            this.result = result;
+    }
+
     /**
      * 响应码
      */

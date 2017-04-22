@@ -1,5 +1,6 @@
 package com.fzy.modules.shop.service.imp;
 
+import com.fzy.common.utils.Md5Utils;
 import com.fzy.modules.shop.entity.Seckill;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -44,6 +45,8 @@ public class SeckillServiceImpTest {
 
     @Test
     public void executeSeckill() throws Exception {
+
+        seckillServiceImp.executeSeckill("2","18365268281", Md5Utils.getMd5("2"));
 
     }
 

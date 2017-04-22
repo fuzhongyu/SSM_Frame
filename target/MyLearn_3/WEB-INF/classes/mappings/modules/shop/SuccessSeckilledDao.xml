@@ -19,7 +19,7 @@
     </sql>
 
    <insert id="insertSuccessKilled">
-       INSERT INTO shop_success_killed(s
+       INSERT INTO shop_success_killed(
            id,
            seckill_id,
            user_phone

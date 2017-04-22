@@ -56,28 +56,35 @@ public class SeckillServiceImp implements SeckillService {
         if(nowTime.getTime()<startTime.getTime()||nowTime.getTime()>endTime.getTime()){
             return new Exposer(false,seckillId,nowTime.getTime(),startTime.getTime(),endTime.getTime());
         }
-        return new Exposer(true, Md5Utils.getMd5(seckillId),nowTime.getTime(),startTime.getTime(),endTime.getTime());
+        return new Exposer(true, seckillId,Md5Utils.getMd5(seckillId),nowTime.getTime(),startTime.getTime(),endTime.getTime());
     }
 
     @Override
     @Transactional
     public SeckillExcution executeSeckill(String seckillId, String userPhone, String md5) {
-        logger.info("---"+seckillId);
         if(StringUtils.isBlank(md5)||!Md5Utils.getMd5(seckillId).equals(md5)){
             throw new ServiceException(ErrorsMsg.ERR_1001);
+        }
+        SuccessKilled killed=successKilledDao.queryByIdWithSeckill(seckillId,userPhone);
+        if(killed!=null){
+            logger.info(ErrorsMsg.ERR_1003.getMsg());
+            throw new ServiceException(ErrorsMsg.ERR_1003);
         }
 
         //执行秒杀逻辑:减库存+记录购买
         Date nowTime=new Date();
         int updateCount=seckillDao.reduceNumber(seckillId,nowTime);
         if(updateCount<0){
+            logger.info(ErrorsMsg.ERR_1002.getMsg());
             throw new ServiceException(ErrorsMsg.ERR_1002);
         }else {
-            int insertCount=successKilledDao.insertSuccessKilled(new SuccessKilled(seckillId,userPhone));
+            SuccessKilled successKilled=new SuccessKilled(seckillId,userPhone);
+            successKilled.preInsert();
+            int insertCount=successKilledDao.insertSuccessKilled(successKilled);
             if(insertCount<0){
-                throw new ServiceException(ErrorsMsg.ERR_1003);
+                logger.info(ErrorsMsg.ERR_9999.getMsg());
+                throw new ServiceException(ErrorsMsg.ERR_9999);
             }else {
-                SuccessKilled successKilled=successKilledDao.queryByIdWithSeckill(seckillId,userPhone);
                 return new SeckillExcution(seckillId,1,"秒杀成功",successKilled);
             }
         }

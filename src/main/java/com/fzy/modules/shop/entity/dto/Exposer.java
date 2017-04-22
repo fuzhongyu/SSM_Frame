@@ -32,7 +32,7 @@ public class Exposer {
         this.end = end;
     }
 
-    public Exposer(boolean exposed, String md5, String seckillId, long now, long start, long end) {
+    public Exposer(boolean exposed, String seckillId,  String md5,long now, long start, long end) {
         this.exposed = exposed;
         this.md5 = md5;
         this.seckillId = seckillId;

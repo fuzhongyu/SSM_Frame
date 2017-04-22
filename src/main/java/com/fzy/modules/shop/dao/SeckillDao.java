@@ -20,7 +20,7 @@ public interface SeckillDao {
      * @param killTime
      * @return 更新条数
      */
-    Integer reduceNumber(String seckillId, Date killTime);
+    Integer reduceNumber(@Param("seckillId") String seckillId, @Param("killTime") Date killTime);
 
     /**
      * 根据id查询商品

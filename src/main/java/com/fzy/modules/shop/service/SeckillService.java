@@ -3,6 +3,7 @@ package com.fzy.modules.shop.service;
 import com.fzy.modules.shop.entity.Seckill;
 import com.fzy.modules.shop.entity.dto.Exposer;
 import com.fzy.modules.shop.entity.dto.SeckillExcution;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
@@ -36,6 +37,7 @@ public interface SeckillService {
      * @param userPhone
      * @param md5
      */
+    @Transactional
     SeckillExcution executeSeckill(String seckillId, String userPhone, String md5);
 
 

@@ -1,11 +1,13 @@
 package com.fzy.modules.shop.entity;
 
+import com.fzy.common.entity.BaseEntity;
+
 import java.util.Date;
 
 /**
  * Created by fuzhongyu on 2017/4/17.
  */
-public class SuccessKilled {
+public class SuccessKilled extends BaseEntity{
 
     private String seckillId; //商品id
     private String userPhone; //用户手机号

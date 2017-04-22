@@ -58,14 +58,14 @@
 </body>
 
 <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
-<script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="http://apps.bdimg.com/libs/jquery/2.0.0/jquery.min.js"></script>
 
 <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
-<script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="http://apps.bdimg.com/libs/bootstrap/3.3.0/js/bootstrap.min.js"></script>
 
 <script src="http://cdn.bootcss.com/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
 
-<script src="http://cdn.bootcss.com/jquery.countdown/2.1.1/jquery.countdown.min.js"></script>
+<script src="http://cdn.bootcss.com/jquery.countdown/2.1.0/jquery.countdown.min.js"></script>
 
 <script type="text/javascript">
 
@@ -73,6 +73,12 @@
         URL:{
             now:function () {
                 return '/shop/seckill/time/now';
+            },
+            exposer:function (seckillId) {
+                return '/shop/seckill/'+seckillId+'/exposer';
+            },
+            execution:function (seckillId,md5) {
+                return '/shop/seckill/'+seckillId+'/'+md5+'/execution';
             }
         },
         validatePhone:function (phone) {
@@ -82,8 +88,39 @@
               return false;
           }
         },
-        handleSeckill: function (seckillId,node) {
+        handleSeckillKill: function (seckillId,node) {
             node.hide().html('<button class="btn btn-primary btn-lg" id="killBtn">开始秒杀</button>');
+            $.post(seckill.URL.exposer(seckillId),{},function(data){
+                 if(data && data['code']==1){
+                     var exposer=data['result'];
+                     if(exposer['exposed']){
+                         var md5=exposer['md5'];
+                         var killUrl=seckill.URL.execution(seckillId,md5);
+                         $("#killBtn").one('click',function () {
+                             $(this).addClass('disabled');
+                             $.post(killUrl,{},function (data) {
+                                if(data&&data['code']==1){
+                                    var killResult=data['result'];
+                                    var state=killResult['state'];
+                                    var stateInfo=killResult['stateInfo'];
+                                    node.html('<span class="label label-success">'+stateInfo+'</span>');
+
+                                }else {
+                                    confirm(data['msg']);
+                                }
+                             });
+                         });
+                         node.show();
+                     }else {
+                         var now=exposer['now'];
+                         var start=exposer['start'];
+                         var end=exposer['end'];
+                         seckill.countdown(seckillId,now,start,end);
+                     }
+                 }else {
+                     confirm(data['msg']);
+                 }
+            });
         },
         countdown:function (seckillId,nowTime,startTime,endTime) {
             var seckillBox=$("#seckill-box");
@@ -95,10 +132,10 @@
                     var format=event.strftime('秒杀倒计时 %D天 %H时 %M分 %S秒');
                     seckillBox.html(format);
                 }).on('finish.countdown',function () {
-                    seckill.handleSeckill(seckillId,seckillBox);
+                    seckill.handleSeckillKill(seckillId,seckillBox);
                 });
             }else {
-                seckill.handleSeckill();
+                seckill.handleSeckillKill(seckillId,seckillBox);
             }
         },
         detail:{
@@ -122,17 +159,17 @@
                             $.cookie('userPhone',inputPhone,{expires:7,path:'/shop/seckill'});
                             window.location.reload();
                         }else {
-                            $('#userPhoneMessage').hide().html('<label class="label label-danger">手机号错误</label>').show(300);
+                            $("#userPhoneMessage").hide().html('<label class="label label-danger">手机号错误</label>').show(300);
                         }
                     });
                 }
 
-                $.get(seckill.URL.now(),{},function (result) {
-                    if(result && result['code']==1){
-                        var nowTime=result['result'];
+                $.get(seckill.URL.now(),{},function (data) {
+                    if(data && data['code']==1){
+                        var nowTime=data['result'];
                         seckill.countdown(seckillId,nowTime,startTime,endTime);
                     }else {
-
+                        confirm(data['msg']);
                     }
                 });
             }

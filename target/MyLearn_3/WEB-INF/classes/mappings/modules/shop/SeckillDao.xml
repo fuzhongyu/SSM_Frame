@@ -14,7 +14,7 @@
     <update id="reduceNumber">
         UPDATE shop_seckill SET
             number=number-1
-        WHERE seckill_id=#{seckillId}
+        WHERE id=#{seckillId}
               AND start_time <![CDATA[<=]]> #{killTime}
               AND end_time &gt;= #{killTime}
               AND number>0;

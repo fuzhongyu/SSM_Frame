@@ -4,6 +4,7 @@ import com.fzy.common.entity.ErrorsMsg;
 import com.fzy.common.entity.ResponseEntity;
 import com.fzy.common.exception.ServiceException;
 import com.fzy.common.utils.StringUtils;
+import com.fzy.common.web.BasicController;
 import com.fzy.modules.shop.entity.Seckill;
 import com.fzy.modules.shop.entity.dto.Exposer;
 import com.fzy.modules.shop.entity.dto.SeckillExcution;
@@ -21,7 +22,7 @@ import java.util.List;
  */
 @Controller
 @RequestMapping("/shop/seckill")
-public class SeckillController {
+public class SeckillController extends BasicController{
 
     @Autowired
     private SeckillService seckillService;
@@ -51,6 +52,11 @@ public class SeckillController {
     @ResponseBody
     @RequestMapping(value = "/{seckillId}/exposer",method = RequestMethod.POST,produces = "application/json;charset=utf-8")
     public ResponseEntity exposer(@PathVariable("seckillId") String seckillId){
+        Seckill seckill= seckillService.getById(seckillId);
+        if(seckill==null){
+            throw new ServiceException(ErrorsMsg.ERR_9999);
+        }
+
         Exposer exposer=seckillService.exportSeckillUrl(seckillId);
         return new ResponseEntity(ErrorsMsg.SUCC_1,exposer);
     }

@@ -7,6 +7,11 @@ package com.fzy.common.utils;
  */
 public class StringUtils {
 
+    /**
+     * 判断字符串是否为空
+     * @param cs
+     * @return
+     */
     public static boolean isBlank(CharSequence cs) {
         int strLen;
         if(cs != null && (strLen = cs.length()) != 0) {
@@ -20,5 +25,14 @@ public class StringUtils {
         } else {
             return true;
         }
+    }
+
+    /**
+     * 判断字符串是否非空
+     * @param cs
+     * @return
+     */
+    public static boolean isNotBlank(CharSequence cs) {
+        return !isBlank(cs);
     }
 }
