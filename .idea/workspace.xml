@@ -2,24 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d082b44a-618d-4f07-837d-22e9e19ed0b2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myLearn_3.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/fzy/common/utils/RedisUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/fzy/common/utils/SerializableUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/fzy/modules/shop/dao/cache/SeckillCacheDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/fzy/modules/shop/dao/cache/SuccessKilledCacheDao.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/MyLearn_3/WEB-INF/classes/com/fzy/common/web/BasicController.class" afterPath="$PROJECT_DIR$/target/MyLearn_3/WEB-INF/classes/com/fzy/common/web/BasicController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/MyLearn_3/WEB-INF/classes/com/fzy/modules/shop/service/imp/SeckillServiceImp.class" afterPath="$PROJECT_DIR$/target/MyLearn_3/WEB-INF/classes/com/fzy/modules/shop/service/imp/SeckillServiceImp.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/common/web/BasicController.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/common/web/BasicController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/modules/shop/service/imp/SeckillServiceImp.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/modules/shop/service/imp/SeckillServiceImp.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/MyLearn_3_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/MyLearn_3_war_exploded.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyLearn_3.sql" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myLearn_3.sql" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyLearn_3.iml" afterPath="$PROJECT_DIR$/MyLearn_3.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fzy/common/web/BasicController.java" afterPath="$PROJECT_DIR$/src/main/java/com/fzy/common/web/BasicController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fzy/modules/shop/service/imp/SeckillServiceImp.java" afterPath="$PROJECT_DIR$/src/main/java/com/fzy/modules/shop/service/imp/SeckillServiceImp.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -80,12 +66,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BasicController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BasicController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/fzy/common/web/BasicController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-340">
-              <caret line="5" column="40" lean-forward="true" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
-              <folding />
+            <state relative-caret-position="20">
+              <caret line="29" column="43" lean-forward="false" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="180">
+                <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -171,7 +172,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/fzy/modules/shop/web/SeckillController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/modules/shop/detail.jsp" />
         <option value="$PROJECT_DIR$/myLearn_3.sql" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/fzy/common/utils/SerializableUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fzy/common/utils/RedisUtils.java" />
@@ -181,6 +181,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/fzy/modules/shop/dao/cache/SuccessKilledCacheDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fzy/modules/shop/dao/cache/SeckillCacheDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fzy/common/web/BasicController.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -381,10 +382,10 @@
       <recent name="com.fzy.common.annotation" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shop" />
       <recent name="$PROJECT_DIR$/src/main/webapp" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/main/resources/mappings/modules/shop" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -1032,7 +1033,7 @@
       <workItem from="1492489987851" duration="1217000" />
       <workItem from="1492492197429" duration="425000" />
       <workItem from="1492492639790" duration="34664000" />
-      <workItem from="1492589946445" duration="39861000" />
+      <workItem from="1492589946445" duration="40238000" />
     </task>
     <servers />
   </component>
@@ -1069,7 +1070,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103282000" />
+    <option name="totallyTimeSpent" value="103659000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -1128,7 +1129,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.1.7.RELEASE/spring-context-4.1.7.RELEASE.jar!/org/springframework/context/support/AbstractRefreshableConfigApplicationContext.class" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fzy/common/annotation.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fzy/modules/shop/entity/Seckill.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1425,25 +1425,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myLearn_3.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="55" lean-forward="true" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="225">
-            <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="583">
@@ -1546,11 +1527,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Desktop/MyLearn_3.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="66" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fzy/common/web/BasicController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-340">
-          <caret line="5" column="40" lean-forward="true" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+        <state relative-caret-position="20">
+          <caret line="29" column="43" lean-forward="false" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyLearn_3.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="13" column="83" lean-forward="true" selection-start-line="13" selection-start-column="83" selection-end-line="13" selection-end-column="83" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="180">
+            <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

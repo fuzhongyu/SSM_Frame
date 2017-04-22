@@ -11,6 +11,6 @@
         本项目主要通过整合框架SSM(即：spring + spring mvc + mybatis)， 前端页面采用bootstrap框架,
         来写一个购物项目。
         
-        数据库及其表结构看myLearn_3.sql文件
+        数据库名：MyLearn_3     表结构文件看：MyLearn_3.sql
        
         
