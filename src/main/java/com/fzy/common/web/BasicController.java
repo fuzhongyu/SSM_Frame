@@ -21,6 +21,7 @@ public abstract class BasicController {
 
 	/**
 	 * 参数绑定异常
+	 * 注：当这个Controller中任何一个方法发生异常，会被这个方法拦截到
 	 */
 	@ResponseBody
 	@ExceptionHandler()
@@ -32,11 +33,11 @@ public abstract class BasicController {
 				responseEntity = new ResponseEntity(serviceException.getErrCode(),serviceException.getMessage(),null);
 			}else{
 				logger.error(ex.getMessage() ,ex);
-				responseEntity = new ResponseEntity(ErrorsMsg.ERR_9999);
+				responseEntity = new ResponseEntity(ErrorsMsg.ERR_9999,null);
 			}
 		}else{
 			logger.error(ex.getMessage() ,ex);
-			responseEntity = new ResponseEntity(ErrorsMsg.ERR_9999);
+			responseEntity = new ResponseEntity(ErrorsMsg.ERR_9999,null);
 		}
 		return responseEntity;
     }

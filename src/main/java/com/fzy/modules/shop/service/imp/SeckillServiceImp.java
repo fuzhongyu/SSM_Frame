@@ -4,8 +4,8 @@ import com.fzy.common.entity.ErrorsMsg;
 import com.fzy.common.exception.ServiceException;
 import com.fzy.common.utils.Md5Utils;
 import com.fzy.common.utils.StringUtils;
-import com.fzy.modules.shop.dao.SeckillDao;
-import com.fzy.modules.shop.dao.SuccessKilledDao;
+import com.fzy.modules.shop.dao.cache.SeckillCacheDao;
+import com.fzy.modules.shop.dao.cache.SuccessKilledCacheDao;
 import com.fzy.modules.shop.entity.Seckill;
 import com.fzy.modules.shop.entity.SuccessKilled;
 import com.fzy.modules.shop.entity.dto.Exposer;
@@ -29,10 +29,10 @@ public class SeckillServiceImp implements SeckillService {
     private Logger logger= LoggerFactory.getLogger(this.getClass());
 
     @Autowired
-    private SeckillDao seckillDao;
+    private SeckillCacheDao seckillDao;
 
     @Autowired
-    private SuccessKilledDao successKilledDao;
+    private SuccessKilledCacheDao successKilledDao;
 
     @Override
     public List<Seckill> getSeckillList() {
