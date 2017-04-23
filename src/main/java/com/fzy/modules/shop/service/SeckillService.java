@@ -1,5 +1,6 @@
 package com.fzy.modules.shop.service;
 
+import com.fzy.common.entity.Page;
 import com.fzy.modules.shop.entity.Seckill;
 import com.fzy.modules.shop.entity.dto.Exposer;
 import com.fzy.modules.shop.entity.dto.SeckillExcution;
@@ -17,6 +18,12 @@ public interface SeckillService {
      * @return
      */
     List<Seckill> getSeckillList();
+
+    /**
+     *
+     * @return
+     */
+    Page<Seckill> getSeckillPage(Page<Seckill> page,Seckill seckill);
 
     /**
      * 查询单个秒杀记录

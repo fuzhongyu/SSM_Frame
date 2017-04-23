@@ -37,6 +37,13 @@ public interface SeckillDao {
      */
     List<Seckill> queryAll(@Param("offset") int offset, @Param("limit") int limit);
 
+    /**
+     * 查询商品
+     * @param seckill
+     * @return
+     */
+    List<Seckill> query(Seckill seckill);
+
 
 
 }

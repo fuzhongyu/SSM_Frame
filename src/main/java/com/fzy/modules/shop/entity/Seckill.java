@@ -7,7 +7,7 @@ import java.util.Date;
 /**
  * Created by fuzhongyu on 2017/4/17.
  */
-public class Seckill extends BaseEntity {
+public class Seckill extends BaseEntity<Seckill> {
 
     private String name;  //商品名称
     private Integer number;  //商品库存

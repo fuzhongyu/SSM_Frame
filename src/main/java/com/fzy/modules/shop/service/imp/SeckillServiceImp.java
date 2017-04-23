@@ -1,6 +1,7 @@
 package com.fzy.modules.shop.service.imp;
 
 import com.fzy.common.entity.ErrorsMsg;
+import com.fzy.common.entity.Page;
 import com.fzy.common.exception.ServiceException;
 import com.fzy.common.utils.Md5Utils;
 import com.fzy.common.utils.StringUtils;
@@ -37,6 +38,18 @@ public class SeckillServiceImp implements SeckillService {
     @Override
     public List<Seckill> getSeckillList() {
         return seckillDao.queryAll(0,4);
+    }
+
+    /**
+     * 分页查询
+     * @param page
+     * @param seckill
+     * @return
+     */
+    @Override
+    public Page<Seckill> getSeckillPage(Page<Seckill> page,Seckill seckill){
+        seckill.setPage(page);
+        return seckillDao.query(seckill);
     }
 
     @Override

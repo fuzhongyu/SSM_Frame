@@ -1,5 +1,6 @@
 package com.fzy.modules.shop.dao.cache;
 
+import com.fzy.common.entity.Page;
 import com.fzy.common.utils.RedisUtils;
 import com.fzy.modules.shop.dao.SeckillDao;
 import com.fzy.modules.shop.entity.Seckill;
@@ -60,6 +61,18 @@ public class SeckillCacheDao {
      */
     public List<Seckill> queryAll(int offset,int limit){
         return seckillDao.queryAll(offset,limit);
+    }
+
+    /**
+     * 分页查询
+     * @param seckill
+     * @return
+     */
+    public Page<Seckill>  query(Seckill seckill){
+        Page<Seckill> page=new Page<>();
+        List<Seckill> list=seckillDao.query(seckill);
+        page.setList(list);
+        return page;
     }
 
 

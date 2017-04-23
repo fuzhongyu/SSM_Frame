@@ -48,4 +48,13 @@
         <property name="resolveLazily" value="true"/>
     </bean>
 
+    <!--设置拦截器-->
+    <mvc:interceptors>
+        <mvc:interceptor>
+            <mvc:mapping path="/"/>
+            <mvc:exclude-mapping path="/shop/*"/>
+            <bean class="com.fzy.common.interceptor.LogInterceptor"/>
+        </mvc:interceptor>
+    </mvc:interceptors>
+
 </beans>

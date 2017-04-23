@@ -36,4 +36,11 @@
         limit #{offset},#{limit}
     </select>
 
+    <select id="query" resultType="Seckill">
+        SELECT
+        <include refid="seckillColumns"/>
+        FROM shop_seckill a
+        ORDER BY  create_time DESC
+    </select>
+
 </mapper>

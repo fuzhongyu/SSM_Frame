@@ -7,7 +7,7 @@ import java.util.Date;
 /**
  * Created by fuzhongyu on 2017/4/17.
  */
-public class SuccessKilled extends BaseEntity{
+public class SuccessKilled extends BaseEntity<SuccessKilled>{
 
     private String seckillId; //商品id
     private String userPhone; //用户手机号

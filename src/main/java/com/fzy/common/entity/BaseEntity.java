@@ -1,16 +1,20 @@
 package com.fzy.common.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fzy.common.utils.IdWorker;
 import com.fzy.common.utils.StringUtils;
 
+import javax.xml.bind.annotation.XmlTransient;
 import java.io.Serializable;
 import java.util.Date;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * 基础实体类
  * Created by fuzhongyu on 2017/4/17.
  */
-public class BaseEntity implements Serializable{
+public class BaseEntity<T> implements Serializable{
 
     private static final long serialVersionUID = 1L;
 
@@ -18,6 +22,12 @@ public class BaseEntity implements Serializable{
 
     protected Boolean isNewRecord=false;  //标识是否是新记录
 
+    protected Page<T> page;
+
+    /**
+     * 自定义SQL（SQL标识，SQL内容）
+     */
+    protected Map<String, String> sqlMap;
 
     public void preInsert(){
         if (!this.isNewRecord){
@@ -52,6 +62,33 @@ public class BaseEntity implements Serializable{
 
     public void setId(String id) {
         this.id = id;
+    }
+
+    @JsonIgnore
+    @XmlTransient
+    public Page<T> getPage() {
+//		if (page == null){
+//			page = new Page<T>();
+//		}
+        return page;
+    }
+
+    public Page<T> setPage(Page<T> page) {
+        this.page = page;
+        return page;
+    }
+
+    @JsonIgnore
+    @XmlTransient
+    public Map<String, String> getSqlMap() {
+        if (sqlMap == null){
+            sqlMap =new HashMap<>();
+        }
+        return sqlMap;
+    }
+
+    public void setSqlMap(Map<String, String> sqlMap) {
+        this.sqlMap = sqlMap;
     }
 
 }

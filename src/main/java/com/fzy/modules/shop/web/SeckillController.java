@@ -1,6 +1,7 @@
 package com.fzy.modules.shop.web;
 
 import com.fzy.common.entity.ErrorsMsg;
+import com.fzy.common.entity.Page;
 import com.fzy.common.entity.ResponseEntity;
 import com.fzy.common.exception.ServiceException;
 import com.fzy.common.utils.StringUtils;
@@ -35,6 +36,16 @@ public class SeckillController extends BasicController{
         model.addAttribute("list",list);
         return "/modules/shop/list";
     }
+
+    @RequestMapping(value = "page")
+    public String page(Model model){
+        //这边将页码和页数写死了，实际需要从前端传回这两个值
+        Page<Seckill> page=seckillService.getSeckillPage(new Page<>(1,4),new Seckill());
+        model.addAttribute("page",page);
+        return "/modules/shop/page";
+    }
+
+
 
     @RequestMapping(value = "{seckillId}/detail")
     public String detail(@PathVariable("seckillId") String seckillId,Model model){
