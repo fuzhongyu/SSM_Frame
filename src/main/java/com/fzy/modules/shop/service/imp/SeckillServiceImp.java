@@ -18,6 +18,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import javax.servlet.http.HttpServletResponse;
 import java.util.Date;
 import java.util.List;
 
@@ -35,8 +36,12 @@ public class SeckillServiceImp implements SeckillService {
     @Autowired
     private SuccessKilledCacheDao successKilledDao;
 
+    @Autowired
+    private HttpServletResponse response;
+
     @Override
     public List<Seckill> getSeckillList() {
+        System.out.println("==>"+response);
         return seckillDao.queryAll(0,4);
     }
 

@@ -6,10 +6,15 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+import org.springframework.web.context.ContextLoader;
 
 import javax.annotation.Resource;
+import javax.servlet.http.HttpServletResponse;
 import java.util.List;
 
 import static org.junit.Assert.*;
@@ -26,8 +31,17 @@ public class SeckillServiceImpTest {
     @Resource
     private SeckillServiceImp seckillServiceImp;
 
+    @Autowired
+    private HttpServletResponse httpServletResponse;
+
+    ApplicationContext applicationContext=new ClassPathXmlApplicationContext("classpath:spring-context.xml");
+    HttpServletResponse response=applicationContext.getBean(HttpServletResponse.class);
+
+
     @Test
     public void getSeckillList() throws Exception {
+        System.out.println(httpServletResponse);
+        System.out.println(response);
         List<Seckill> list=seckillServiceImp.getSeckillList();
         logger.info("list={}",list);
 

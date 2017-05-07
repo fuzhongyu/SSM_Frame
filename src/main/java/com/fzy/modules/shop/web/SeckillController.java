@@ -10,11 +10,17 @@ import com.fzy.modules.shop.entity.Seckill;
 import com.fzy.modules.shop.entity.dto.Exposer;
 import com.fzy.modules.shop.entity.dto.SeckillExcution;
 import com.fzy.modules.shop.service.SeckillService;
+import com.fzy.modules.shop.service.imp.SeckillServiceImp;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.ApplicationContext;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.context.ContextLoader;
 
+import javax.servlet.ServletContext;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletResponse;
 import java.util.Date;
 import java.util.List;
 
@@ -28,10 +34,12 @@ public class SeckillController extends BasicController{
     @Autowired
     private SeckillService seckillService;
 
+    @Autowired
+    private HttpServletResponse response;
 
     @RequestMapping(value = "list")
     public String list(Model model){
-
+        System.out.println("**"+response);
         List<Seckill>  list=seckillService.getSeckillList();
         model.addAttribute("list",list);
         return "/modules/shop/list";

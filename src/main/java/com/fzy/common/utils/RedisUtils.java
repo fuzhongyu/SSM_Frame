@@ -1,5 +1,6 @@
 package com.fzy.common.utils;
 
+import com.fzy.common.config.Global;
 import org.junit.Test;
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;
@@ -15,9 +16,9 @@ import java.util.*;
 public class RedisUtils {
 
     //Redis服务器IP
-    private static String IP = "127.0.0.1";
+    private static String HOST = Global.getConfig("redis.host");
     //Redis的端口号
-    private static int PORT = 6379;
+    private static int PORT = Integer.valueOf(Global.getConfig("redis.port"));
 
     //可用连接实例的最大数目，默认值为8；
     //如果赋值为-1，则表示不限制；如果pool已经分配了maxActive个jedis实例，则此时pool的状态为exhausted(耗尽)。
@@ -46,7 +47,7 @@ public class RedisUtils {
             config.setMaxIdle(MAX_IDLE);
             config.setMaxWaitMillis(MAX_WAIT);
             config.setTestOnBorrow(TEST_ON_BORROW);
-            jedisPool = new JedisPool(config, IP, PORT, TIMEOUT);
+            jedisPool = new JedisPool(config, HOST, PORT, TIMEOUT);
         } catch (Exception e) {
                 e.printStackTrace();
             }
