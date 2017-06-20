@@ -41,6 +41,7 @@ public class SeckillController extends BasicController{
     public String list(Model model){
         System.out.println("**"+response);
         List<Seckill>  list=seckillService.getSeckillList();
+//        int a=1/0;
         model.addAttribute("list",list);
         return "/modules/shop/list";
     }

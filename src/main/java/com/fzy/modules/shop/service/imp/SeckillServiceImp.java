@@ -45,6 +45,10 @@ public class SeckillServiceImp implements SeckillService {
         return seckillDao.queryAll(0,4);
     }
 
+    static {
+        System.out.println("=========<静态块加载>=========");
+    }
+
     /**
      * 分页查询
      * @param page
