@@ -44,6 +44,9 @@ public interface SeckillDao {
      */
     List<Seckill> query(Seckill seckill);
 
+    @Deprecated
+    void insert(Seckill seckill);
+
 
 
 }

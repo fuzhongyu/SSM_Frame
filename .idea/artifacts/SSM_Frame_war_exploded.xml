@@ -1,13 +1,12 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="SSM_Frame:war exploded">
-    <output-path>$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded</output-path>
+    <output-path>$PROJECT_DIR$/target/MyLearn_3</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="SSM_Frame" />
         </element>
         <element id="directory" name="lib">
-          <element id="library" level="project" name="Maven: junit:junit:4.8.1" />
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.12" />
           <element id="library" level="project" name="Maven: ch.qos.logback:logback-core:1.1.1" />
           <element id="library" level="project" name="Maven: ch.qos.logback:logback-classic:1.1.1" />
@@ -40,6 +39,9 @@
           <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.9" />
           <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpcore:4.4" />
         </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/MyLearn_3/META-INF/MANIFEST.MF" />
       </element>
       <element id="javaee-facet-resources" facet="SSM_Frame/web/Web" />
     </root>

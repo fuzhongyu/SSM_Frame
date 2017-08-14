@@ -2,167 +2,125 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d082b44a-618d-4f07-837d-22e9e19ed0b2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/annotation/MyBatisDao.class" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/annotation/MyBatisDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/config/Global.class" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/config/Global.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/db/SQLHelper.class" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/db/SQLHelper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/db/dialect/Dialect.class" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/db/dialect/Dialect.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/db/dialect/db/DB2Dialect.class" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/db/dialect/db/DB2Dialect.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/db/dialect/db/DerbyDialect.class" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/db/dialect/db/DerbyDialect.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/db/dialect/db/H2Dialect.class" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/db/dialect/db/H2Dialect.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/db/dialect/db/HSQLDialect.class" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/db/dialect/db/HSQLDialect.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/db/dialect/db/MySQLDialect.class" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/db/dialect/db/MySQLDialect.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/db/dialect/db/OracleDialect.class" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/db/dialect/db/OracleDialect.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/db/dialect/db/PostgreSQLDialect.class" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/db/dialect/db/PostgreSQLDialect.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/db/dialect/db/SQLServer2005Dialect.class" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/db/dialect/db/SQLServer2005Dialect.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/db/dialect/db/SQLServerDialect.class" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/db/dialect/db/SQLServerDialect.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/db/dialect/db/SybaseDialect.class" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/db/dialect/db/SybaseDialect.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/entity/BaseEntity.class" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/entity/BaseEntity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/entity/ErrorsMsg.class" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/entity/ErrorsMsg.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/entity/Page.class" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/entity/Page.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/entity/ResponseEntity.class" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/entity/ResponseEntity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/exception/ServiceException.class" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/exception/ServiceException.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/interceptor/BaseInterceptor.class" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/interceptor/BaseInterceptor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/interceptor/LogInterceptor.class" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/interceptor/LogInterceptor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/interceptor/PageInterceptor$BoundSqlSqlSource.class" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/interceptor/PageInterceptor$BoundSqlSqlSource.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/interceptor/PageInterceptor.class" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/interceptor/PageInterceptor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/listener/SysInit.class" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/listener/SysInit.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/servlet/SysInitServlet.class" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/servlet/SysInitServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/utils/CookieUtils.class" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/utils/CookieUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/utils/DateUtils.class" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/utils/DateUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/utils/HttpsResquestUtil$1.class" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/utils/HttpsResquestUtil$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/utils/HttpsResquestUtil.class" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/utils/HttpsResquestUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/utils/IdWorker.class" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/utils/IdWorker.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/utils/Md5Utils.class" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/utils/Md5Utils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/utils/PropertiesLoader.class" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/utils/PropertiesLoader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/utils/RedisUtils.class" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/utils/RedisUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/utils/ReflectionsUtils.class" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/utils/ReflectionsUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/utils/SerializableUtils.class" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/utils/SerializableUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/utils/StringUtils.class" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/utils/StringUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/utils/SysInitBean.class" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/utils/SysInitBean.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/web/BasicController.class" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/web/BasicController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/modules/shop/dao/SeckillDao.class" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/modules/shop/dao/SeckillDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/modules/shop/dao/SuccessKilledDao.class" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/modules/shop/dao/SuccessKilledDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/modules/shop/dao/cache/SeckillCacheDao.class" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/modules/shop/dao/cache/SeckillCacheDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/modules/shop/dao/cache/SuccessKilledCacheDao.class" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/modules/shop/dao/cache/SuccessKilledCacheDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/modules/shop/entity/Seckill.class" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/modules/shop/entity/Seckill.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/modules/shop/entity/SuccessKilled.class" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/modules/shop/entity/SuccessKilled.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/modules/shop/entity/dto/Exposer.class" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/modules/shop/entity/dto/Exposer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/modules/shop/entity/dto/SeckillExcution.class" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/modules/shop/entity/dto/SeckillExcution.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/modules/shop/service/SeckillService.class" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/modules/shop/service/SeckillService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/modules/shop/service/imp/SeckillServiceImp.class" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/modules/shop/service/imp/SeckillServiceImp.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/modules/shop/web/SeckillController.class" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/modules/shop/web/SeckillController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/aopalliance-1.0.jar" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/aopalliance-1.0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/c3p0-0.9.1.2.jar" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/c3p0-0.9.1.2.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/commons-codec-1.9.jar" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/commons-codec-1.9.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/commons-fileupload-1.3.1.jar" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/commons-fileupload-1.3.1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/commons-io-2.2.jar" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/commons-io-2.2.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/commons-lang3-3.3.2.jar" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/commons-lang3-3.3.2.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/commons-logging-1.2.jar" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/commons-logging-1.2.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/commons-pool2-2.4.2.jar" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/commons-pool2-2.4.2.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/httpclient-4.4.jar" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/httpclient-4.4.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/httpcore-4.4.jar" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/httpcore-4.4.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/jackson-annotations-2.5.0.jar" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/jackson-annotations-2.5.0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/jackson-core-2.5.4.jar" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/jackson-core-2.5.4.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/jackson-databind-2.5.4.jar" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/jackson-databind-2.5.4.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/jedis-2.9.0.jar" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/jedis-2.9.0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/jstl-1.2.jar" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/jstl-1.2.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/junit-4.8.1.jar" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/junit-4.8.1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/logback-classic-1.1.1.jar" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/logback-classic-1.1.1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/logback-core-1.1.1.jar" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/logback-core-1.1.1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/mybatis-3.3.0.jar" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/mybatis-3.3.0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/mybatis-spring-1.2.3.jar" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/mybatis-spring-1.2.3.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/mysql-connector-java-5.1.35.jar" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/mysql-connector-java-5.1.35.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/slf4j-api-1.7.12.jar" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/slf4j-api-1.7.12.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/spring-aop-4.1.7.RELEASE.jar" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/spring-aop-4.1.7.RELEASE.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/spring-beans-4.1.7.RELEASE.jar" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/spring-beans-4.1.7.RELEASE.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/spring-context-4.1.7.RELEASE.jar" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/spring-context-4.1.7.RELEASE.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/spring-core-4.1.7.RELEASE.jar" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/spring-core-4.1.7.RELEASE.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/spring-expression-4.1.7.RELEASE.jar" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/spring-expression-4.1.7.RELEASE.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/spring-jdbc-4.1.7.RELEASE.jar" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/spring-jdbc-4.1.7.RELEASE.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/spring-tx-4.1.7.RELEASE.jar" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/spring-tx-4.1.7.RELEASE.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/spring-web-4.1.7.RELEASE.jar" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/spring-web-4.1.7.RELEASE.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/spring-webmvc-4.1.7.RELEASE.jar" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/spring-webmvc-4.1.7.RELEASE.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/standard-1.1.2.jar" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/standard-1.1.2.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/statics/img/close_white.png" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/statics/img/close_white.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/statics/img/cross.jpg" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/statics/img/cross.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/statics/img/lei.png" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/statics/img/lei.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/common/annotation/MyBatisDao.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/common/annotation/MyBatisDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/common/config/Global.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/common/config/Global.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/common/db/SQLHelper.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/common/db/SQLHelper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/common/db/dialect/Dialect.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/common/db/dialect/Dialect.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/common/db/dialect/db/DB2Dialect.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/common/db/dialect/db/DB2Dialect.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/common/db/dialect/db/DerbyDialect.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/common/db/dialect/db/DerbyDialect.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/common/db/dialect/db/H2Dialect.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/common/db/dialect/db/H2Dialect.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/common/db/dialect/db/HSQLDialect.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/common/db/dialect/db/HSQLDialect.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/common/db/dialect/db/MySQLDialect.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/common/db/dialect/db/MySQLDialect.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/common/db/dialect/db/OracleDialect.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/common/db/dialect/db/OracleDialect.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/common/db/dialect/db/PostgreSQLDialect.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/common/db/dialect/db/PostgreSQLDialect.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/common/db/dialect/db/SQLServer2005Dialect.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/common/db/dialect/db/SQLServer2005Dialect.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/common/db/dialect/db/SQLServerDialect.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/common/db/dialect/db/SQLServerDialect.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/common/db/dialect/db/SybaseDialect.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/common/db/dialect/db/SybaseDialect.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/common/entity/BaseEntity.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/common/entity/BaseEntity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/common/entity/ErrorsMsg.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/common/entity/ErrorsMsg.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/common/entity/Page.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/common/entity/Page.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/common/entity/ResponseEntity.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/common/entity/ResponseEntity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/common/exception/ServiceException.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/common/exception/ServiceException.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/common/interceptor/BaseInterceptor.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/common/interceptor/BaseInterceptor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/common/interceptor/LogInterceptor.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/common/interceptor/LogInterceptor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/common/interceptor/PageInterceptor$BoundSqlSqlSource.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/common/interceptor/PageInterceptor$BoundSqlSqlSource.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/common/interceptor/PageInterceptor.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/common/interceptor/PageInterceptor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/common/listener/SysInit.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/common/listener/SysInit.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/common/servlet/SysInitServlet.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/common/servlet/SysInitServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/common/utils/CookieUtils.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/common/utils/CookieUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/common/utils/DateUtils.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/common/utils/DateUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/common/utils/HttpsResquestUtil$1.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/common/utils/HttpsResquestUtil$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/common/utils/HttpsResquestUtil.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/common/utils/HttpsResquestUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/common/utils/IdWorker.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/common/utils/IdWorker.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/common/utils/Md5Utils.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/common/utils/Md5Utils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/common/utils/PropertiesLoader.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/common/utils/PropertiesLoader.class" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_8_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/annotation/MyBatisDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/config/Global.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/db/SQLHelper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/db/dialect/Dialect.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/db/dialect/db/DB2Dialect.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/db/dialect/db/DerbyDialect.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/db/dialect/db/H2Dialect.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/db/dialect/db/HSQLDialect.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/db/dialect/db/MySQLDialect.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/db/dialect/db/OracleDialect.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/db/dialect/db/PostgreSQLDialect.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/db/dialect/db/SQLServer2005Dialect.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/db/dialect/db/SQLServerDialect.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/db/dialect/db/SybaseDialect.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/entity/BaseEntity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/entity/ErrorsMsg.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/entity/Page.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/entity/ResponseEntity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/exception/ServiceException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/interceptor/BaseInterceptor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/interceptor/LogInterceptor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/interceptor/PageInterceptor$BoundSqlSqlSource.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/interceptor/PageInterceptor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/listener/SysInit.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/servlet/SysInitServlet.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/utils/CookieUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/utils/DateUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/utils/HttpsResquestUtil$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/utils/HttpsResquestUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/utils/IdWorker.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/utils/Md5Utils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/utils/PropertiesLoader.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/utils/RedisUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/utils/ReflectionsUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/utils/SerializableUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/utils/StringUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/utils/SysInitBean.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/common/web/BasicController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/modules/shop/dao/SeckillDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/modules/shop/dao/SuccessKilledDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/modules/shop/dao/cache/SeckillCacheDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/modules/shop/dao/cache/SuccessKilledCacheDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/modules/shop/entity/Seckill.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/modules/shop/entity/SuccessKilled.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/modules/shop/entity/dto/Exposer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/modules/shop/entity/dto/SeckillExcution.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/modules/shop/service/SeckillService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/modules/shop/service/imp/SeckillServiceImp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/com/fzy/modules/shop/web/SeckillController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/config.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/logback-config.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/mappings/modules/shop/SeckillDao.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/mappings/modules/shop/SuccessSeckilledDao.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/mybatis-config.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/spring-context.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/spring-mvc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/aopalliance-1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/c3p0-0.9.1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/commons-codec-1.9.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/commons-fileupload-1.3.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/commons-io-2.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/commons-lang3-3.3.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/commons-logging-1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/commons-pool2-2.4.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/httpclient-4.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/httpcore-4.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/jackson-annotations-2.5.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/jackson-core-2.5.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/jackson-databind-2.5.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/jedis-2.9.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/jstl-1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/junit-4.8.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/logback-classic-1.1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/logback-core-1.1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/mybatis-3.3.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/mybatis-spring-1.2.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/mysql-connector-java-5.1.35.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/slf4j-api-1.7.12.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/spring-aop-4.1.7.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/spring-beans-4.1.7.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/spring-context-4.1.7.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/spring-core-4.1.7.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/spring-expression-4.1.7.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/spring-jdbc-4.1.7.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/spring-tx-4.1.7.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/spring-web-4.1.7.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/spring-webmvc-4.1.7.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/lib/standard-1.1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/views/include/head.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/views/include/taglib.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/views/modules/shop/detail.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/views/modules/shop/list.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/views/modules/shop/page.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/web.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/index.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/statics/img/close_white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/statics/img/cross.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/statics/img/lei.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/statics/jquery/jquery-1.9.0.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/statics/jquery/jquery-1.9.0.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/test.jsp" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/common/utils/RedisUtils.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/common/utils/RedisUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/common/utils/ReflectionsUtils.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/common/utils/ReflectionsUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/common/utils/SerializableUtils.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/common/utils/SerializableUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/common/utils/StringUtils.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/common/utils/StringUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/common/utils/SysInitBean.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/common/utils/SysInitBean.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/common/web/BasicController.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/common/web/BasicController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/modules/shop/dao/SeckillDao.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/modules/shop/dao/SeckillDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/modules/shop/dao/SuccessKilledDao.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/modules/shop/dao/SuccessKilledDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/modules/shop/dao/cache/SeckillCacheDao.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/modules/shop/dao/cache/SeckillCacheDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/modules/shop/dao/cache/SuccessKilledCacheDao.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/modules/shop/dao/cache/SuccessKilledCacheDao.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/modules/shop/entity/Seckill.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/modules/shop/entity/Seckill.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/modules/shop/entity/SuccessKilled.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/modules/shop/entity/SuccessKilled.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/modules/shop/entity/dto/Exposer.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/modules/shop/entity/dto/Exposer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/modules/shop/entity/dto/SeckillExcution.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/modules/shop/entity/dto/SeckillExcution.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/modules/shop/service/SeckillService.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/modules/shop/service/SeckillService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/modules/shop/service/imp/SeckillServiceImp.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/modules/shop/service/imp/SeckillServiceImp.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/modules/shop/web/SeckillController.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/modules/shop/web/SeckillController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/fzy/modules/shop/dao/SeckillDaoTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/fzy/modules/shop/dao/SeckillDaoTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/fzy/modules/shop/service/imp/SeckillServiceImpTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/fzy/modules/shop/service/imp/SeckillServiceImpTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/SSM_Frame_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/SSM_Frame_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/META-INF/MANIFEST.MF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/config.properties" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/config.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/logback-config.xml" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/logback-config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/mappings/modules/shop/SeckillDao.xml" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/mappings/modules/shop/SeckillDao.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/mappings/modules/shop/SuccessSeckilledDao.xml" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/mappings/modules/shop/SuccessSeckilledDao.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/mybatis-config.xml" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/mybatis-config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/spring-context.xml" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/spring-context.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/spring-mvc.xml" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/classes/spring-mvc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/views/include/head.jsp" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/views/include/head.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/views/include/taglib.jsp" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/views/include/taglib.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/views/modules/shop/detail.jsp" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/views/modules/shop/detail.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/views/modules/shop/list.jsp" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/views/modules/shop/list.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/views/modules/shop/page.jsp" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/views/modules/shop/page.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/index.jsp" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/statics/jquery/jquery-1.9.0.js" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/statics/jquery/jquery-1.9.0.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/statics/jquery/jquery-1.9.0.min.js" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/statics/jquery/jquery-1.9.0.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/test.jsp" afterPath="$PROJECT_DIR$/out/artifacts/SSM_Frame_war_exploded/test.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/config.properties" afterPath="$PROJECT_DIR$/target/classes/config.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/logback-config.xml" afterPath="$PROJECT_DIR$/target/classes/logback-config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SSM_Frame.iml" afterPath="$PROJECT_DIR$/SSM_Frame.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fzy/common/utils/RedisUtils.java" afterPath="$PROJECT_DIR$/src/main/java/com/fzy/common/utils/RedisUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fzy/modules/shop/dao/SeckillDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/fzy/modules/shop/dao/SeckillDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fzy/modules/shop/entity/Seckill.java" afterPath="$PROJECT_DIR$/src/main/java/com/fzy/modules/shop/entity/Seckill.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mappings/modules/shop/SeckillDao.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappings/modules/shop/SeckillDao.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/spring-context.xml" afterPath="$PROJECT_DIR$/src/main/resources/spring-context.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/fzy/modules/shop/dao/SeckillDaoTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/fzy/modules/shop/dao/SeckillDaoTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mappings/modules/shop/SeckillDao.xml" afterPath="$PROJECT_DIR$/target/classes/mappings/modules/shop/SeckillDao.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mappings/modules/shop/SuccessSeckilledDao.xml" afterPath="$PROJECT_DIR$/target/classes/mappings/modules/shop/SuccessSeckilledDao.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mybatis-config.xml" afterPath="$PROJECT_DIR$/target/classes/mybatis-config.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/spring-context.xml" afterPath="$PROJECT_DIR$/target/classes/spring-context.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/spring-mvc.xml" afterPath="$PROJECT_DIR$/target/classes/spring-mvc.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -182,32 +140,12 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="spring-context.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/spring-context.xml">
+    <leaf>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="38" column="57" lean-forward="false" selection-start-line="38" selection-start-column="57" selection-end-line="38" selection-end-column="57" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SeckillController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fzy/modules/shop/web/SeckillController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="48" column="35" lean-forward="false" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="detail.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/modules/shop/detail.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+            <state relative-caret-position="182">
+              <caret line="57" column="53" lean-forward="true" selection-start-line="57" selection-start-column="53" selection-end-line="57" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -254,7 +192,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/fzy/common/interceptor/LogInterceptor.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/fzy/common/utils/CookieUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fzy/common/db/dialect/db/DB2Dialect.java" />
@@ -274,10 +211,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/fzy/common/db/SQLHelper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fzy/common/entity/Page.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fzy/common/entity/BaseEntity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fzy/modules/shop/entity/Seckill.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fzy/modules/shop/entity/SuccessKilled.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/fzy/modules/shop/dao/SeckillDaoTest.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mappings/modules/shop/SeckillDao.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/modules/shop/page.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/fzy/modules/shop/dao/cache/SeckillCacheDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fzy/modules/shop/service/SeckillService.java" />
@@ -286,25 +220,29 @@
         <option value="$PROJECT_DIR$/src/main/java/com/fzy/common/servlet/SysInitServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fzy/common/utils/SysInitBean.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/fzy/common/listener/SysInit.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/fzy/modules/shop/service/imp/SeckillServiceImpTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/config.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fzy/common/utils/RedisUtils.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/fzy/common/utils/HttpsResquestUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fzy/modules/shop/service/imp/SeckillServiceImp.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/test.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fzy/modules/shop/web/SeckillController.java" />
         <option value="$USER_HOME$/Downloads/kindeditor.js" />
         <option value="$USER_HOME$/Downloads/input.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/js/input.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/modules/shop/test_1.jsp" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring-context.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fzy/modules/shop/dao/SeckillDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fzy/common/utils/RedisUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fzy/modules/shop/dao/SuccessKilledDao.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/fzy/modules/shop/service/imp/SeckillServiceImpTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fzy/common/web/BasicController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fzy/modules/shop/web/SeckillController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring-context.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fzy/modules/shop/entity/Seckill.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mappings/modules/shop/SeckillDao.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/fzy/modules/shop/dao/SeckillDaoTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fzy/modules/shop/dao/SeckillDao.java" />
       </list>
     </option>
   </component>
@@ -333,14 +271,29 @@
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
         </PATH_ELEMENT>
       </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="MyLearn_3 Maven Webapp" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
     </treeState>
   </component>
   <component name="MavenRunner">
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
   <component name="ProjectFrameBounds">
+    <option name="y" value="40" />
     <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="height" value="820" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -357,7 +310,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -384,6 +336,90 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SSM_Frame" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SSM_Frame" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fzy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SSM_Frame" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SSM_Frame" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fzy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -425,11 +461,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -451,15 +483,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
+              <option name="myItemId" value="mappings" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -489,15 +517,27 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
+              <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemId" value="com" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
+              <option name="myItemId" value="fzy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -518,10 +558,195 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fzy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SSM_Frame" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SSM_Frame" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fzy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="imp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SSM_Frame" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SSM_Frame" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fzy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="entity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SSM_Frame" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SSM_Frame" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fzy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SSM_Frame" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SSM_Frame" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fzy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -563,7 +788,57 @@
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/views" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.tomcat">
+  <component name="RunManager" selected="JUnit.SeckillDaoTest.insert">
+    <configuration default="false" name="MyLearn_3 [package]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="package" />
+              </list>
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
+    <configuration default="false" name="SeckillDaoTest.insert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.fzy.modules.shop.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="SSM_Frame" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.fzy.modules.shop.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.fzy.modules.shop.dao.SeckillDaoTest" />
+      <option name="METHOD_NAME" value="insert" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
       <deployment />
       <server-settings />
@@ -891,6 +1166,28 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -1028,9 +1325,17 @@
         </option>
       </method>
     </configuration>
-    <list size="1">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.tomcat" />
+      <item index="1" class="java.lang.String" itemvalue="Maven.MyLearn_3 [package]" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.SeckillDaoTest.insert" />
     </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.SeckillDaoTest.insert" />
+        <item index="1" class="java.lang.String" itemvalue="Maven.MyLearn_3 [package]" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -1118,16 +1423,44 @@
       <workItem from="1498374285299" duration="601000" />
       <workItem from="1499049617815" duration="1404000" />
       <workItem from="1500092241710" duration="1573000" />
-      <workItem from="1500293043547" duration="6107000" />
+      <workItem from="1500293043547" duration="6950000" />
+      <workItem from="1500304852532" duration="598000" />
+      <workItem from="1500566235079" duration="1532000" />
+      <workItem from="1500602782903" duration="2088000" />
+      <workItem from="1500606581248" duration="17186000" />
+      <workItem from="1500812205009" duration="19000" />
+      <workItem from="1500861449552" duration="5082000" />
+      <workItem from="1501131658054" duration="674000" />
+      <workItem from="1501134391891" duration="1883000" />
+      <workItem from="1501238406372" duration="1804000" />
+      <workItem from="1501489815163" duration="1285000" />
+      <workItem from="1501745986462" duration="470000" />
+      <workItem from="1501814523241" duration="101000" />
+      <workItem from="1501815503859" duration="4301000" />
+      <workItem from="1501855567479" duration="1193000" />
+      <workItem from="1502066604076" duration="1667000" />
+      <workItem from="1502172467658" duration="39000" />
+      <workItem from="1502172774115" duration="16000" />
+      <workItem from="1502173241455" duration="602000" />
+      <workItem from="1502248065873" duration="11000" />
+      <workItem from="1502248184412" duration="10620000" />
+      <workItem from="1502331360001" duration="11382000" />
+      <workItem from="1502416164533" duration="60000" />
+      <workItem from="1502416490594" duration="443000" />
+      <workItem from="1502416985005" duration="17000" />
+      <workItem from="1502440379816" duration="638000" />
+      <workItem from="1502521153965" duration="116000" />
+      <workItem from="1502610715556" duration="45000" />
+      <workItem from="1502680800021" duration="716000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SeckillServiceImpTest_executeSeckill - 2017.04.22 at 15h 14m 20s.xml">
-      <configuration name="SeckillServiceImpTest.executeSeckill" configurationId="JUnit" />
+    <history-entry file="SeckillDaoTest_insert - 2017.08.11 at 10h 00m 54s.xml">
+      <configuration name="SeckillDaoTest.insert" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SeckillServiceImpTest_executeSeckill - 2017.05.05 at 00h 33m 03s.xml">
-      <configuration name="SeckillServiceImpTest.executeSeckill" configurationId="JUnit" />
+    <history-entry file="SeckillDaoTest_insert - 2017.08.11 at 10h 02m 07s.xml">
+      <configuration name="SeckillDaoTest.insert" configurationId="JUnit" />
     </history-entry>
     <history-entry file="SeckillServiceImpTest_getSeckillList - 2017.04.22 at 15h 07m 46s.xml">
       <configuration name="SeckillServiceImpTest.getSeckillList" configurationId="JUnit" />
@@ -1155,17 +1488,17 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="194565000" />
+    <option name="totallyTimeSpent" value="259996000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="40" width="1440" height="820" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2274678" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1173,28 +1506,28 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34698796" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41807228" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32650602" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44666666" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49638554" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2353362" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3204578" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32533333" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1205,7 +1538,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="29" />
+      <option name="time" value="40" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1214,278 +1547,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/taglib.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/head.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/modules/shop/page.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/modules/shop/test_1.jsp" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="11" lean-forward="false" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="217" column="49" lean-forward="false" selection-start-line="217" selection-start-column="49" selection-end-line="217" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/Properties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="121" column="6" lean-forward="false" selection-start-line="121" selection-start-column="6" selection-end-line="121" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.1.7.RELEASE/spring-context-4.1.7.RELEASE.jar!/org/springframework/context/config/spring-context-4.0.xsd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="88" column="4" lean-forward="false" selection-start-line="88" selection-start-column="4" selection-end-line="88" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/logback-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyLearn_3.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="19" column="2" lean-forward="true" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="28" column="17" lean-forward="true" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/4.1.7.RELEASE/spring-jdbc-4.1.7.RELEASE.jar!/org/springframework/jdbc/datasource/DataSourceTransactionManager.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fzy/modules/shop/entity/Seckill.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="34" lean-forward="false" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.3.0/mybatis-3.3.0.jar!/org/apache/ibatis/session/RowBounds.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fzy/common/entity/BaseEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-332">
-          <caret line="16" column="51" lean-forward="true" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fzy/common/entity/ErrorsMsg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fzy/common/entity/Page.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="258" column="72" lean-forward="true" selection-start-line="258" selection-start-column="72" selection-end-line="258" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fzy/common/entity/ResponseEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fzy/common/db/SQLHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="33" column="13" lean-forward="false" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fzy/common/annotation/MyBatisDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fzy/common/interceptor/LogInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fzy/common/interceptor/PageInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fzy/common/web/BasicController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="26" column="23" lean-forward="false" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fzy/common/listener/SysInit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fzy/common/servlet/SysInitServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fzy/common/utils/IdWorker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-60">
-          <caret line="16" column="35" lean-forward="true" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fzy/common/utils/ReflectionsUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="20" column="29" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fzy/common/utils/StringUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mappings/modules/shop/SeckillDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <marker date="1492939278000" expanded="true" signature="399:608" ph="UPDATE shop_... " />
-            <marker date="1492939278000" expanded="true" signature="683:787" ph="SELECT FROM shop_seckill" />
-            <marker date="1492939278000" expanded="true" signature="859:1003" ph="SELECT FROM shop_seckill" />
-            <marker date="1492939278000" expanded="true" signature="1072:1183" ph="SELECT FROM shop_seckill" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fzy/common/utils/SysInitBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fzy/common/utils/HttpsResquestUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-797">
-          <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fzy/common/utils/DateUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-870">
-          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1493,39 +1558,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-827">
           <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fzy/common/utils/Md5Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="38" column="57" lean-forward="false" selection-start-line="38" selection-start-column="57" selection-end-line="38" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fzy/modules/shop/dao/SuccessKilledDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fzy/modules/shop/dao/cache/SeckillCacheDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="46" column="53" lean-forward="true" selection-start-line="46" selection-start-column="53" selection-end-line="46" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1533,66 +1565,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="568">
           <caret line="57" column="33" lean-forward="true" selection-start-line="57" selection-start-column="33" selection-end-line="57" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fzy/modules/shop/service/imp/SeckillServiceImp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="568">
-          <caret line="60" column="29" lean-forward="true" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fzy/modules/shop/service/SeckillService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="22" column="6" lean-forward="true" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fzy/common/utils/PropertiesLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="32" column="11" lean-forward="false" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
-          <folding>
-            <element signature="e#952#953#0" expanded="false" />
-            <element signature="e#1002#1003#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fzy/common/config/Global.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fzy/common/utils/RedisUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="18" column="34" lean-forward="false" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fzy/modules/shop/dao/SeckillDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="32" column="16" lean-forward="true" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1600,15 +1572,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fzy/modules/shop/web/SeckillController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="48" column="35" lean-forward="false" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1616,6 +1579,338 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fzy/common/annotation/MyBatisDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fzy/modules/shop/dao/cache/SeckillCacheDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="22" column="18" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="144" lean-forward="false" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="144" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fzy/common/utils/RedisUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fzy/modules/shop/dao/SuccessKilledDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="18" column="20" lean-forward="false" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/fzy/modules/shop/service/imp/SeckillServiceImpTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="33" column="14" lean-forward="false" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="35" column="17" lean-forward="false" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar!/org/apache/commons/lang3/StringUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="23" column="31" lean-forward="false" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.1.7.RELEASE/spring-web-4.1.7.RELEASE.jar!/org/springframework/web/bind/annotation/ControllerAdvice.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="19" column="18" lean-forward="false" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.1.7.RELEASE/spring-web-4.1.7.RELEASE.jar!/org/springframework/http/HttpStatus.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="76" column="25" lean-forward="false" selection-start-line="76" selection-start-column="4" selection-end-line="76" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="62" column="33" lean-forward="false" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fzy/common/web/BasicController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="19" column="57" lean-forward="false" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fzy/common/utils/DateUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1500">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.4/httpclient-4.4.jar!/org/apache/http/impl/client/CloseableHttpClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="27" column="22" lean-forward="false" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fzy/common/utils/Md5Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fzy/common/utils/StringUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fzy/common/listener/SysInit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fzy/common/utils/HttpsResquestUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="26" column="32" lean-forward="true" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fzy/common/entity/ErrorsMsg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fzy/modules/shop/web/SeckillController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="75" column="26" lean-forward="false" selection-start-line="75" selection-start-column="26" selection-end-line="75" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fzy/common/entity/ResponseEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fzy/common/exception/ServiceException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fzy/modules/shop/service/SeckillService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="686">
+          <caret line="54" column="49" lean-forward="true" selection-start-line="54" selection-start-column="49" selection-end-line="54" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fzy/common/entity/Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fzy/common/utils/ReflectionsUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2175">
+          <caret line="20" column="31" lean-forward="true" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fzy/common/utils/SerializableUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fzy/common/config/Global.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="24" column="15" lean-forward="true" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mappings/modules/shop/SuccessSeckilledDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fzy/common/utils/IdWorker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="56" column="40" lean-forward="true" selection-start-line="56" selection-start-column="40" selection-end-line="56" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fzy/common/utils/PropertiesLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1245">
+          <caret line="99" column="9" lean-forward="true" selection-start-line="99" selection-start-column="9" selection-end-line="99" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fzy/modules/shop/service/imp/SeckillServiceImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="58" column="76" lean-forward="false" selection-start-line="58" selection-start-column="76" selection-end-line="58" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fzy/common/db/SQLHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="87" column="35" lean-forward="true" selection-start-line="87" selection-start-column="35" selection-end-line="87" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fzy/common/db/dialect/Dialect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="10" lean-forward="false" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="53" column="39" lean-forward="false" selection-start-line="53" selection-start-column="39" selection-end-line="53" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fzy/common/entity/BaseEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-165">
+          <caret line="22" column="52" lean-forward="true" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/fzy/modules/shop/dao/SeckillDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="65" column="37" lean-forward="false" selection-start-line="65" selection-start-column="37" selection-end-line="65" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fzy/modules/shop/dao/SeckillDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mappings/modules/shop/SeckillDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+          <folding>
+            <marker date="1502416847000" expanded="true" signature="399:608" ph="UPDATE shop_... " />
+            <marker date="1502416847000" expanded="true" signature="683:787" ph="SELECT FROM shop_seckill" />
+            <marker date="1502416847000" expanded="true" signature="859:1003" ph="SELECT FROM shop_seckill" />
+            <marker date="1502416847000" expanded="true" signature="1072:1183" ph="SELECT FROM shop_seckill" />
+            <marker date="1502416847000" expanded="true" signature="1232:1366" ph="INSERT INTO shop_seckill" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fzy/modules/shop/entity/Seckill.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fzy/common/interceptor/LogInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-30">
+          <caret line="16" column="59" lean-forward="false" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fzy/common/interceptor/PageInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-201">
+          <caret line="52" column="24" lean-forward="true" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fzy/common/interceptor/BaseInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-397">
+          <caret line="29" column="18" lean-forward="false" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/logback-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="57" column="53" lean-forward="true" selection-start-line="57" selection-start-column="53" selection-end-line="57" selection-end-column="53" />
           <folding />
         </state>
       </provider>

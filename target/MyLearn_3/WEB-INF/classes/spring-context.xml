@@ -15,6 +15,7 @@
 
     <!-- 加载配置属性文件 -->
 	<context:property-placeholder ignore-unresolvable="true" location="classpath:config.properties" />
+	<context:property-placeholder ignore-unresolvable="true" ignore-resource-not-found="true" location="classpath:11.properties"/>
 
 	 <!--使用Annotation自动注册Bean，解决事物失效问题：在主容器中不扫描@Controller注解，在SpringMvc中只扫描@Controller注解。-->
 	<context:component-scan base-package="com.fzy.modules"><!-- base-package 如果多个，用“,”分隔 -->
@@ -53,10 +54,10 @@
 
 	<!--扫描dao接口，动态实现dao接口注入到spring容器-->
 	<bean id="mapperScannerConfigurer" class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-		<!--给出需要扫描的dao接口包-->
-		<property name="basePackage" value="com.fzy.modules"/>
 		<!--注入sqlSessionFactory-->
 		<property name="sqlSessionFactoryBeanName" value="sqlSessionFactory" />
+		<!--给出需要扫描的dao接口包,实例化dao-->
+		<property name="basePackage" value="com.fzy.modules"/>
 		<!-- 扫描basePackage下所有以@MyBatisDao注解的接口 -->
 		<property name="annotationClass" value="com.fzy.common.annotation.MyBatisDao"/>
 	</bean>

@@ -53,10 +53,10 @@
 
 	<!--扫描dao接口，动态实现dao接口注入到spring容器-->
 	<bean id="mapperScannerConfigurer" class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-		<!--给出需要扫描的dao接口包-->
-		<property name="basePackage" value="com.fzy.modules"/>
 		<!--注入sqlSessionFactory-->
 		<property name="sqlSessionFactoryBeanName" value="sqlSessionFactory" />
+		<!--给出需要扫描的dao接口包,实例化dao-->
+		<property name="basePackage" value="com.fzy.modules"/>
 		<!-- 扫描basePackage下所有以@MyBatisDao注解的接口 -->
 		<property name="annotationClass" value="com.fzy.common.annotation.MyBatisDao"/>
 	</bean>

@@ -1,7 +1,6 @@
 package com.fzy.common.utils;
 
 import com.fzy.common.config.Global;
-import org.junit.Test;
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;
 import redis.clients.jedis.JedisPoolConfig;

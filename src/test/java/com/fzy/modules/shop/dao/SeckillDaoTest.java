@@ -59,4 +59,12 @@ public class SeckillDaoTest{
         }
     }
 
+    @Test
+    public void insert(){
+        Seckill seckill=new Seckill();
+        seckill.setId("101");
+        seckill.setDeleteFlag(false);
+        seckillDao.insert(seckill);
+    }
+
 }

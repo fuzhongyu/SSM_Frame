@@ -43,4 +43,14 @@
         ORDER BY  create_time DESC
     </select>
 
+    <insert id="insert">
+        INSERT  INTO shop_seckill(
+           id,
+           delete_flag
+        )VALUES(
+           #{id},
+           #{deleteFlag}
+        )
+    </insert>
+
 </mapper>

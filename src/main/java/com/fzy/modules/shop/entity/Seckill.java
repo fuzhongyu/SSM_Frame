@@ -14,6 +14,7 @@ public class Seckill extends BaseEntity<Seckill> {
     private Date startTime;  //秒杀开始时间
     private Date endTime;  //秒杀结束时间
     private Date createTime;  //商品创建时间
+    private Boolean deleteFlag;
 
 
     public String getName() {
@@ -54,5 +55,13 @@ public class Seckill extends BaseEntity<Seckill> {
 
     public void setCreateTime(Date createTime) {
         this.createTime = createTime;
+    }
+
+    public Boolean getDeleteFlag() {
+        return deleteFlag;
+    }
+
+    public void setDeleteFlag(Boolean deleteFlag) {
+        this.deleteFlag = deleteFlag;
     }
 }

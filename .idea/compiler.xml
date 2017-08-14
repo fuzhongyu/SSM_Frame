@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="MyLearn_3" />
+        <module name="SSM_Frame" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="MyLearn_3" target="1.8" />
+      <module name="SSM_Frame" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
