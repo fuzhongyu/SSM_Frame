@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<!-- 全局参数 -->
+	<settings>
+
+		<!-- 使用列别名替换列明 default:true -->
+		<setting name="useColumnLabel" value="true"/>
+
+		<!-- 允许JDBC 生成主键。需要驱动器支持。如果设为了true，这个设置将强制使用被生成的主键，有一些驱动器不兼容不过仍然可以执行。  default:false  -->
+		<setting name="useGeneratedKeys" value="false"/>
+
+		<!-- 使用驼峰命名法转换字段。 -->
+		<setting name="mapUnderscoreToCamelCase" value="true"/>
+		
+	</settings>
+
+	<plugins>
+		<!-- PageHelper4.1.6 -->
+		<plugin interceptor="com.github.pagehelper.PageHelper">
+			<property name="helperDialect" value="mysql"/>
+			<property name="offsetAsPageNum" value="false"/>
+			<property name="rowBoundsWithCount" value="false"/>
+			<property name="pageSizeZero" value="true"/>
+			<property name="reasonable" value="false"/>
+			<property name="supportMethodsArguments" value="false"/>
+			<property name="returnPageInfo" value="none"/>
+		</plugin>
+	</plugins>
+
+
+</configuration>
