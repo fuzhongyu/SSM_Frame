@@ -16,6 +16,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
+import javax.servlet.http.HttpServletRequest;
+import java.io.UnsupportedEncodingException;
 import java.util.Date;
 import java.util.List;
 
@@ -32,7 +34,7 @@ public class SeckillController extends BasicController{
     private SeckillService seckillService;
 
     @RequestMapping(value = "list")
-    public String list(Model model){
+    public String list(Model model,HttpServletRequest request){
         List<Seckill>  list=seckillService.getSeckillList();
 //        int a=1/0;
         model.addAttribute("list",list);
