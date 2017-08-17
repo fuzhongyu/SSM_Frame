@@ -6,7 +6,6 @@
 
   <display-name>LogManager</display-name>
 
-
   <context-param>
     <param-name>contextConfigLocation</param-name>
     <param-value>classpath:spring-context.xml</param-value>
@@ -19,6 +18,22 @@
     <listener-class>org.springframework.web.context.request.RequestContextListener</listener-class>
   </listener>
 
+  <!-- 如果是在根目录，则可以不指定log4j.properties文件的路径，spring就能自动加载，如果不是在根目录则需要指定 -->
+  <!-- 加载log4j配置文件 -->
+  <context-param>
+    <param-name>log4jConfigLocation</param-name>
+    <param-value>classpath:/log/log4j.properties</param-value>
+  </context-param>
+  <!--log4jRefreshInterval为100000表示 开一条watchdog线程每10秒扫描一下配置文件的变化;   -->
+  <context-param>
+    <param-name>log4jRefreshInterval</param-name>
+    <param-value>100000</param-value>
+  </context-param>
+  <!-- 1. 动态的改变记录级别和策略，不需要重启Web应用; 2. 把log文件定在 /WEB-INF/logs/ 而不需要写绝对路径。 -->
+  <listener>
+    <listener-class>org.springframework.web.util.Log4jConfigListener</listener-class>
+  </listener>
+
 
   <servlet>
     <servlet-name>mvc-servlet</servlet-name>
@@ -26,7 +41,7 @@
     <!--DispatcherServlet对应的上下文配置，默认为/WEB-INF/$servlet-name$-servlet.xml-->
     <init-param>
       <param-name>contextConfigLocation</param-name>
-      <param-value>classpath:spring-mvc.xml</param-value>
+      <param-value>classpath:spring-*.xml</param-value>
     </init-param>
     <load-on-startup>1</load-on-startup>
     <async-supported>true</async-supported>
