@@ -10,8 +10,12 @@
 
 <description>Spring Configuration</description>
 
-    <!-- 加载配置属性文件 -->
-	<context:property-placeholder ignore-unresolvable="true" location="classpath:config.properties" />
+	<bean id="springContextHolder" class="com.fzy.utils.SpringContextHolder" lazy-init="false"/>
+
+	<bean id="disposableBenaListener" class="com.fzy.listener.DisposableBeanListener" lazy-init="false"/>
+
+    <!-- 通配符加载所有config*.properties文件  -->
+	<context:property-placeholder ignore-unresolvable="true" location="classpath*:config*.properties" />
 
 	<import resource="classpath*:spring-context-dao.xml"></import>
 	<import resource="classpath*:spring-mybatis_1.xml"></import>

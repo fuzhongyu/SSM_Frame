@@ -25,6 +25,15 @@
     <!--静态资源配置-->
     <mvc:resources mapping="/statics/**" location="/statics/"/>
 
+    <!--设置拦截器-->
+    <mvc:interceptors>
+        <mvc:interceptor>
+            <mvc:mapping path="/shop/seckill/list"/>
+            <!--<mvc:exclude-mapping path="/shop/*"/>-->
+            <bean class="com.fzy.intercepter.WebLogInterceptor"/>
+        </mvc:interceptor>
+    </mvc:interceptors>
+
     <!-- 定义视图文件解析 -->
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="viewClass" value="org.springframework.web.servlet.view.JstlView"/>

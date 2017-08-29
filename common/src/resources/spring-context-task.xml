@@ -15,6 +15,6 @@
 
 	<!-- 任务列表 -->
 	<task:scheduled-tasks>
-		<task:scheduled ref="taskTest" method="test" cron="*/30 * * * * ?"/>
+		<task:scheduled ref="taskTest" method="test" cron="0 0/30 * * * ?"/>
 	</task:scheduled-tasks>
 </beans>

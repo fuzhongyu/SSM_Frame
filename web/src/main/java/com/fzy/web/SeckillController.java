@@ -5,6 +5,11 @@ import com.fzy.entity.ResponseEntity;
 import com.fzy.exception.ServiceException;
 import com.fzy.shop.Seckill;
 import com.fzy.shop.SeckillService;
+import com.fzy.shop.annota_valide.ValParam_3;
+import com.fzy.shop.annota_valide.ValideParam;
+import com.fzy.shop.annota_valide.ValideParam_2;
+import com.fzy.shop.annota_valide.inter.ValInt;
+import com.fzy.shop.annota_valide.inter.ValInt_2;
 import com.fzy.shop.dto.Exposer;
 import com.fzy.shop.dto.SeckillExcution;
 import com.github.pagehelper.PageInfo;
@@ -12,11 +17,15 @@ import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.validation.BindingResult;
+import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletRequest;
+import javax.validation.Valid;
 import java.io.UnsupportedEncodingException;
 import java.util.Date;
 import java.util.List;
@@ -34,7 +43,7 @@ public class SeckillController extends BasicController{
     private SeckillService seckillService;
 
     @RequestMapping(value = "list")
-    public String list(Model model,HttpServletRequest request){
+    public String list(Seckill seckill, Model model, HttpServletRequest request){
         List<Seckill>  list=seckillService.getSeckillList();
 //        int a=1/0;
         model.addAttribute("list",list);
@@ -49,6 +58,27 @@ public class SeckillController extends BasicController{
         PageInfo<Seckill> page=seckillService.getSeckillPage(1,4,new Seckill());
         model.addAttribute("page",page);
         return "/modules/shop/page";
+    }
+
+    /**
+     * 注解验证测试
+     * @param seckill
+     * @param model
+     * @param request
+     * @param result
+     * @return
+     */
+    @RequestMapping(value = "validTest")
+    public String validTest(@Validated Seckill seckill, Model model, HttpServletRequest request, BindingResult result){
+        System.out.println(seckill.getName().length());
+        if (result.hasErrors()){
+            System.out.println(result.getAllErrors());
+            System.out.println(result.getFieldErrors().get(0));
+        }
+        List<Seckill>  list=seckillService.getSeckillList();
+//        int a=1/0;
+        model.addAttribute("list",list);
+        return "/modules/shop/list";
     }
 
 

@@ -12,6 +12,10 @@
 
     <description>Spring MVC Configuration</description>
 
+    <!-- 通配符加载所有config*.properties文件  -->
+    <context:property-placeholder ignore-unresolvable="true" location="classpath*:config*.properties" />
+    <context:component-scan base-package="com"  use-default-filters="false"/>
+
    <!-- 使用<context:annotation- config/>隐式地向 Spring容器注册AutowiredAnnotationBeanPostProcessor、
     RequiredAnnotationBeanPostProcessor、CommonAnnotationBeanPostProcessor以及
     PersistenceAnnotationBeanPostProcessor这4个BeanPostProcessor-->
@@ -39,19 +43,10 @@
 
     <!-- 上传文件拦截，设置最大上传文件大小   10M=10*1024*1024(B)=10485760 bytes -->
     <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
-        <property name="maxUploadSize" value="10485760"/>
+        <property name="maxUploadSize" value="${max_file_size}"/>
         <property name="defaultEncoding" value="UTF-8"/>
         <property name="resolveLazily" value="true"/>
     </bean>
-
-    <!--设置拦截器-->
-    <mvc:interceptors>
-        <mvc:interceptor>
-            <mvc:mapping path="/shop/seckill/list"/>
-            <!--<mvc:exclude-mapping path="/shop/*"/>-->
-            <bean class="com.fzy.interceptor.LogInterceptor"/>
-        </mvc:interceptor>
-    </mvc:interceptors>
 
     <bean id="sysInitBean" class="com.fzy.utils.SysInitBean"/>
 

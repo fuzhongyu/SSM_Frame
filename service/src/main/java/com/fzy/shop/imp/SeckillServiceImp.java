@@ -9,6 +9,7 @@ import com.fzy.shop.cache.SeckillCacheDao;
 import com.fzy.shop.cache.SuccessKilledCacheDao;
 import com.fzy.shop.dto.Exposer;
 import com.fzy.shop.dto.SeckillExcution;
+import com.fzy.thread.ExcutorProcessPool;
 import com.fzy.utils.Md5Utils;
 import com.github.pagehelper.PageInfo;
 import org.apache.commons.lang3.StringUtils;
@@ -36,6 +37,14 @@ public class SeckillServiceImp implements SeckillService {
 
     @Override
     public List<Seckill> getSeckillList() {
+
+        ExcutorProcessPool.getInstance().excute(new Thread(){
+            @Override
+            public void run(){
+                System.out.println("-------线程池任务--------");
+            }
+        });
+
         return seckillDao.queryAll(0,4);
     }
 

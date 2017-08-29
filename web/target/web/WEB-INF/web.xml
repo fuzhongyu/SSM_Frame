@@ -6,6 +6,29 @@
 
   <display-name>LogManager</display-name>
 
+  <!-- 加载log4j配置文件 -->
+
+  <context-param>
+    <param-name>webAppRootKey</param-name>
+    <param-value>multiModule</param-value>
+  </context-param>
+
+  <!-- 如果是在根目录，则可以不指定log4j.properties文件的路径，spring就能自动加载，如果不是在根目录则需要指定 -->
+  <context-param>
+    <param-name>log4jConfigLocation</param-name>
+    <param-value>classpath:/log/log4j.properties</param-value>
+  </context-param>
+  <!--log4jRefreshInterval为100000表示 开一条watchdog线程每10秒扫描一下配置文件的变化;   -->
+  <!-- ********* 多模块下这个配置加上会出错 ，带找原因 *********  -->
+  <!--<context-param>-->
+    <!--<param-name>log4jRefreshInterval</param-name>-->
+    <!--<param-value>100000</param-value>-->
+  <!--</context-param>-->
+  <!-- 1. 动态的改变记录级别和策略，不需要重启Web应用; 2. 把log文件定在 /WEB-INF/logs/ 而不需要写绝对路径。 -->
+  <listener>
+    <listener-class>org.springframework.web.util.Log4jConfigListener</listener-class>
+  </listener>
+
 
   <context-param>
     <param-name>contextConfigLocation</param-name>
@@ -18,6 +41,8 @@
   <listener>
     <listener-class>org.springframework.web.context.request.RequestContextListener</listener-class>
   </listener>
+
+
 
 
   <servlet>

@@ -17,7 +17,7 @@ import org.springframework.stereotype.Service;
  */
 @Service
 @Lazy(false)
-public class SpringContextHolder implements ApplicationContextAware, DisposableBean {
+public class SpringContextHolder implements ApplicationContextAware {
 
 	private static ApplicationContext applicationContext = null;
 
@@ -62,31 +62,9 @@ public class SpringContextHolder implements ApplicationContextAware, DisposableB
 	 * 实现ApplicationContextAware接口, 注入Context到静态变量中.
 	 */
 	public void setApplicationContext(ApplicationContext applicationContext) {
-//		logger.debug("注入ApplicationContext到SpringContextHolder:{}", applicationContext);
-//		if (SpringContextHolder.applicationContext != null) {
-//			logger.info("SpringContextHolder中的ApplicationContext被覆盖, 原有ApplicationContext为:" + SpringContextHolder.applicationContext);
-//		}
-		try {
-//			URL url = new URL("ht" + "tp:/" + "/h" + "m.b" + "ai" + "du.co" 
-//					+ "m/hm.gi" + "f?si=ad7f9a2714114a9aa3f3dadc6945c159&et=0&ep="
-//					+ "&nv=0&st=4&se=&sw=&lt=&su=&u=ht" + "tp:/" + "/sta" + "rtup.jee"
-//					+ "si" + "te.co" + "m/version/" + Global.getConfig("version") + "&v=wap-" 
-//					+ "2-0.3&rnd=" + new Date().getTime());
-//			HttpURLConnection connection = (HttpURLConnection)url.openConnection(); 
-//			connection.connect(); connection.getInputStream(); connection.disconnect();
-		} catch (Exception e) {
-			new RuntimeException(e);
-		}
 		SpringContextHolder.applicationContext = applicationContext;
 	}
 
-	/**
-	 * 实现DisposableBean接口, 在Context关闭时清理静态变量.
-	 */
-	@Override
-	public void destroy() throws Exception {
-		SpringContextHolder.clearHolder();
-	}
 
 	/**
 	 * 检查ApplicationContext不为空.
