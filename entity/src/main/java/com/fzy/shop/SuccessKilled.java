@@ -1,6 +1,8 @@
 package com.fzy.shop;
 
 import com.fzy.entity.BaseEntity;
+import com.fzy.shop.annota_valide.ValideParam_2;
+import com.fzy.shop.annota_valide.inter.ValInt_2;
 
 import java.util.Date;
 
@@ -9,6 +11,7 @@ import java.util.Date;
  */
 public class SuccessKilled extends BaseEntity<SuccessKilled> {
 
+    @ValideParam_2(message = "name长度不符successKilled",groups = ValInt_2.class)
     private String seckillId; //商品id
     private String userPhone; //用户手机号
     private Integer state; //状态：-1-无，0-秒杀成功，1-已付款，2-已发货

@@ -25,6 +25,7 @@ import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 import javax.validation.Valid;
 import java.io.UnsupportedEncodingException;
 import java.util.Date;
@@ -122,7 +123,14 @@ public class SeckillController extends BasicController{
 
     @ResponseBody
     @RequestMapping(value = "/time/now")
-    public ResponseEntity time(){
+    public ResponseEntity time(@RequestBody Seckill seckill,HttpServletResponse response){
+
+        System.out.println(seckill.getName());
+
+        if(true){
+            throw new ServiceException(ErrorsMsg.ERR_1001);
+        }
+
         return new ResponseEntity(ErrorsMsg.SUCC_1,new Date().getTime());
     }
 

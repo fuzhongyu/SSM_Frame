@@ -84,6 +84,18 @@
             <version>2.5.4</version>
         </dependency>
 
+        <dependency>
+            <groupId>javax.json</groupId>
+            <artifactId>javax.json-api</artifactId>
+            <version>1.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.glassfish</groupId>
+            <artifactId>javax.json</artifactId>
+            <version>1.0.4</version>
+        </dependency>
+
         <!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
         <dependency>
             <groupId>javax.servlet</groupId>
@@ -209,14 +221,20 @@
             <scope>runtime</scope>
         </dependency>
         <!--数据库连接池-->
-        <!-- https://mvnrepository.com/artifact/c3p0/c3p0 -->
+        <!--https://mvnrepository.com/artifact/c3p0/c3p0 -->
+       <!--<dependency>-->
+           <!--<groupId>c3p0</groupId>-->
+           <!--<artifactId>c3p0</artifactId>-->
+           <!--<version>0.9.1.2</version>-->
+       <!--</dependency>-->
+
         <dependency>
-            <groupId>c3p0</groupId>
-            <artifactId>c3p0</artifactId>
-            <version>0.9.1.2</version>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid</artifactId>
+            <version>1.0.26</version>
         </dependency>
 
-        <!--   ***   mybatis依赖配置   ***   -->
+       <!--   ***   mybatis依赖配置   ***   -->
 
         <!-- https://mvnrepository.com/artifact/org.mybatis/mybatis -->
         <dependency>

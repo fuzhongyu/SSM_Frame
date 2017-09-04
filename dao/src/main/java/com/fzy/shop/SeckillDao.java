@@ -44,5 +44,4 @@ public interface SeckillDao {
      */
     List<Seckill> query(Seckill seckill);
 
-
 }
