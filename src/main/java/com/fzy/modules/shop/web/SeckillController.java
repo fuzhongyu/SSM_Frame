@@ -11,21 +11,31 @@ import com.fzy.modules.shop.entity.dto.Exposer;
 import com.fzy.modules.shop.entity.dto.SeckillExcution;
 import com.fzy.modules.shop.service.SeckillService;
 import com.fzy.modules.shop.service.imp.SeckillServiceImp;
+import org.apache.http.entity.StringEntity;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
+import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Controller;
+import org.springframework.stereotype.Service;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.context.ContextLoader;
+import org.springframework.web.multipart.MultipartFile;
 
 import javax.servlet.ServletContext;
 import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.io.File;
+import java.io.IOException;
+import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
 
 /**
- * Created by fuzhongyu on 2017/4/19.
+ *
+ * @author fuzhongyu
+ * @date 2017/4/19
  */
 @Controller
 @RequestMapping("/shop/seckill")
@@ -34,14 +44,14 @@ public class SeckillController extends BasicController{
     @Autowired
     private SeckillService seckillService;
 
-    @Autowired
-    private HttpServletResponse response;
+//    @Autowired
+//    private HttpServletResponse response;
 
     @RequestMapping(value = "list")
-    public String list(Model model){
-        System.out.println("**"+response);
+    public String list(Model model,HttpServletRequest request){
+//        System.out.println("**"+response);
+
         List<Seckill>  list=seckillService.getSeckillList();
-//        int a=1/0;
         model.addAttribute("list",list);
         return "/modules/shop/list";
     }
@@ -98,5 +108,44 @@ public class SeckillController extends BasicController{
     public ResponseEntity time(){
         return new ResponseEntity(ErrorsMsg.SUCC_1,new Date().getTime());
     }
+
+    @RequestMapping(value = "/uploadFile")
+    public void uploadFile(Model model,HttpServletRequest request,HttpServletResponse response,MultipartFile file){
+        final String upload="/Users/fuzhongyu/Downloads/pic/";
+        SimpleDateFormat sf=new SimpleDateFormat("yyyy-MM-dd");
+        String stringDate = sf.format(new Date());
+        String PATH=upload+stringDate;
+        File dir=new File(PATH);
+        if(!dir.exists()) dir.mkdir();
+        String[] tmp=file.getOriginalFilename().split("\\.");
+        String suffix=tmp[tmp.length-1]!=null?tmp[tmp.length-1]:"";
+        String filename=file.hashCode()+"."+suffix;
+        File img=new File(PATH,filename);
+
+        if(!img.exists()) {
+            try {
+                img.createNewFile();
+            } catch (IOException e) {
+             e.printStackTrace();
+            }
+        }
+
+        try {
+            file.transferTo(img);
+        } catch (IllegalStateException | IOException e) {
+           e.printStackTrace();
+        }
+        String re="{\"FileUrl\":\""+PATH+"/"+filename+"\"}";
+        response.reset();
+        response.setContentType("application/json");
+        response.setCharacterEncoding("utf-8");
+
+        try {
+            response.getWriter().print(re);
+        } catch (IOException e) {
+           e.printStackTrace();
+        }
+    }
+
 
 }

@@ -2,6 +2,11 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.fzy.modules.shop.dao.SeckillDao">
 
+    <resultMap id="tabInfo" type="map">
+        <result column="dataType" property="dataType"/>
+        <result column="maxLength" property="maxLength"/>
+    </resultMap>
+
     <sql id="seckillColumns">
         a.id,
         a.name,
@@ -41,6 +46,57 @@
         <include refid="seckillColumns"/>
         FROM shop_seckill a
         ORDER BY  create_time DESC
+    </select>
+
+    <insert id="insert">
+        INSERT  INTO shop_seckill(
+           id,
+           delete_flag
+        )VALUES(
+           #{id},
+           #{deleteFlag}
+        )
+    </insert>
+
+
+    <select id="find" resultType="Seckill">
+        SELECT
+        <include refid="seckillColumns"/>
+        FROM shop_seckill a
+        <where>
+            <if test="name!=null">
+                AND a.name LIKE CONCAT('%', #{name}, '%')
+            </if>
+            <if test="startTime!=null">
+                AND a.create_time &gt; #{startTime}
+            </if>
+            <if test="endTime!=null">
+                AND a.create_time &lt; #{endTime}
+            </if>
+        </where>
+
+        ORDER BY  create_time DESC
+    </select>
+
+    <select id="showTables" resultType="String">
+        show tables like #{tableName}
+    </select>
+
+    <select id="showColumns" resultType="String">
+        SHOW COLUMNS FROM ${tableName} LIKE #{colName}
+    </select>
+
+    <select id="columnsType" resultType="String">
+        SELECT
+          DATA_TYPE AS dataType
+        FROM information_schema.columns WHERE table_name=#{tableName} and column_name=#{colName}
+    </select>
+
+    <select id="colInfo" resultMap="tabInfo">
+         SELECT
+            DATA_TYPE AS dataType,
+            CHARACTER_MAXIMUM_LENGTH AS maxLength
+        FROM information_schema.columns WHERE table_name=#{tableName} and column_name=#{colName}
     </select>
 
 </mapper>

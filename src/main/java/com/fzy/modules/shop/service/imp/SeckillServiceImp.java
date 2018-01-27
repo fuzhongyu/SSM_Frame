@@ -36,18 +36,19 @@ public class SeckillServiceImp implements SeckillService {
     @Autowired
     private SuccessKilledCacheDao successKilledDao;
 
-    @Autowired
-    private HttpServletResponse response;
+//    @Autowired
+//    private HttpServletResponse response;
 
     @Override
     public List<Seckill> getSeckillList() {
-        System.out.println("==>"+response);
+//        System.out.println("==>"+response);
         return seckillDao.queryAll(0,4);
     }
 
     static {
         System.out.println("=========<静态块加载>=========");
     }
+
 
     /**
      * 分页查询
@@ -111,4 +112,5 @@ public class SeckillServiceImp implements SeckillService {
             }
         }
     }
+
 }

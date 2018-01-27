@@ -6,6 +6,7 @@ import org.apache.ibatis.annotations.Param;
 
 import java.util.Date;
 import java.util.List;
+import java.util.Map;
 
 /**
  * 秒杀商品实体类
@@ -47,6 +48,23 @@ public interface SeckillDao {
     @Deprecated
     void insert(Seckill seckill);
 
+    /**
+     * 这种使用方法错误
+     * @param seckill
+     * @param startTime
+     * @param endTime
+     * @return
+     */
+    @Deprecated
+    List<Seckill> find(Seckill seckill,@Param("startTime") Date startTime,@Param("endTime") Date endTime);
 
+
+    String showTables(String tableName);
+
+    List<String> showColumns(@Param("tableName") String tableName,@Param("colName") String colName);
+
+    String columnsType(@Param("tableName") String tableName,@Param("colName") String colName);
+
+    Map<String,Object> colInfo(@Param("tableName") String tableName,@Param("colName") String colName);
 
 }

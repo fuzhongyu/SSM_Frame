@@ -31,17 +31,17 @@ public class SeckillServiceImpTest {
     @Resource
     private SeckillServiceImp seckillServiceImp;
 
-    @Autowired
-    private HttpServletResponse httpServletResponse;
+//    @Autowired
+//    private HttpServletResponse httpServletResponse;
 
     ApplicationContext applicationContext=new ClassPathXmlApplicationContext("classpath:spring-context.xml");
-    HttpServletResponse response=applicationContext.getBean(HttpServletResponse.class);
+//    HttpServletResponse response=applicationContext.getBean(HttpServletResponse.class);
 
 
     @Test
     public void getSeckillList() throws Exception {
-        System.out.println(httpServletResponse);
-        System.out.println(response);
+//        System.out.println(httpServletResponse);
+//        System.out.println(response);
         List<Seckill> list=seckillServiceImp.getSeckillList();
         logger.info("list={}",list);
 
@@ -57,11 +57,11 @@ public class SeckillServiceImpTest {
 
     }
 
-    @Test
-    public void executeSeckill() throws Exception {
-
-        seckillServiceImp.executeSeckill("2","18365268281", Md5Utils.getMd5("2"));
-
-    }
+//    @Test
+//    public void executeSeckill() throws Exception {
+//
+//        seckillServiceImp.executeSeckill("2","18365268281", Md5Utils.getMd5("2"));
+//
+//    }
 
 }
